@@ -20,7 +20,7 @@ Pros:
 * Un buen primer proyecto para iniciarse en la robótica.
 * Extensible: En la placa perforada además caber una placa Arduino Nano debería quedar espacio libre para añadir elementos extra: un zumbador, pulsadores, ledes, un sensor de ultrasonidos, resistencias LDR...
 * Personalizable: Se pueden conectar piezas también imprimidas en 3D a su parte frontal.
-* Es un cuadrúpedo. Un poco torpe (pobriño...) pero con un aspecto y movimiento simpático y amigable.
+* Es un cuadrúpedo. Un poco torpe (pobriño...), pero con un aspecto y movimiento simpático y amigable.
 
 Contras:
 
@@ -35,4 +35,4 @@ Su diseño permite llevar a cabo actividades en las que se pueda experimentar co
 * Electrónica: Es posible construir el robot soldando distintos elementos en una placa perforada estándar y añadir elementos nuevos. Por contra también se puede simplificar su construcción utilizando una sensor shield para Arduino Nano, lo que eliminaría el uso de soldadores y componentes discretos, siendo solo necesario conectar elementos de una manera muy sencilla.
 * Programación: A pesar de sus capacidades motrices limitadas es posible programarlo para realizar movimientos hacia adelante, atrás y giros en ambas direcciones.
 
-Asimismo el chasis del robot cuenta con unos conectores en la parte frontal que permiten conectar piezas intercambiables. Estas piezas podrían ser diseños imprimidos en 3D creados con fines funcionales o bien decorativos.
+Asimismo el chasis del robot cuenta con unos conectores en la parte frontal que permiten conectar piezas intercambiables. Estas piezas podrían ser diseños imprimidos en 3D creados con finalidad decorativa o bien funcional.
