@@ -4,7 +4,9 @@ Robot cuadrúpedo didáctico y minimalista (Arduino nano y 2 servos SG90)
 
 ## Descripción
 
-Abercrombie es un robot cuadrúpedo extremadamente sencillo. Se ha diseñado intencon el mínimo número de elementos 
+Abercrombie es un robot cuadrúpedo extremadamente sencillo pensado sobre todo para ser utilizado en el aula, pero también para todo aquel que quiera construir un primer robot sencillo desde cero.
+
+Una clara inspiración para desarrollar este robot fue sin duda el fantástico diseño de Randy Sarafan (accesible desde aquí)[https://www.instructables.com/id/3D-Printed-Robot/]. Es un robot indudablemente bonito y bien diseñado, pero con fines didácticos se adapta mejor un robot más fácil de imprimir y que utilice servomotores más estándar.
 
 ## Motivación
 
@@ -24,7 +26,7 @@ Contras:
 
 * Es un cuadrúpedo, y esto es también un inconveniente ya que su desplazamiento hace muy complicada su utilización en ciertas actividades en las que contar con unas ruedas sería mucho más adecuado (ej: robot siguelíneas).
 
-# Aula-friendly
+## Amigable para el aula
 
 El robot puede ser utilizado y además construido en el aula ya que es sencillo, el precio por unidad es muy reducido y los tiempos de impresión de las piezas necesarios son bastante razonables. Esto siempre que tratemos grupos pequeños o bien contemos con un número adecuado de impresoras hace viable construir uno por alumno.
 
