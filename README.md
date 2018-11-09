@@ -36,3 +36,15 @@ Su diseño permite llevar a cabo actividades en las que se pueda experimentar co
 * Programación: A pesar de sus capacidades motrices limitadas es posible programarlo para realizar movimientos hacia adelante, atrás y giros en ambas direcciones.
 
 Asimismo el chasis del robot cuenta con unos conectores en la parte frontal que permiten conectar piezas intercambiables. Estas piezas podrían ser diseños imprimidos en 3D creados con finalidad decorativa o bien funcional.
+
+## Imágenes
+
+![Piezas CAD](imagenes/cad_piezas_web)
+
+![Chasis en CAD](imagenes/cad_chasis_web.jpg)
+
+![Chasis en impresora](imagenes/chasis_en_impresora.jpg)
+
+![Sets de piezas en aula](imagenes/sets_piezas_1_web.jpg)
+
+![Sets de piezas en aula](imagenes/sets_piezas_2_web.jpg)
