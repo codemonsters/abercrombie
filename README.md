@@ -39,11 +39,17 @@ Asimismo el chasis del robot cuenta con unos conectores en la parte frontal que 
 
 ## Imágenes
 
-![Piezas CAD](imagenes/cad_piezas_web)
+Capturas de pantalla (ejem...) mostrando el diseño de las piezas 3D:
+
+![Piezas CAD](imagenes/cad_piezas_web.jpg)
 
 ![Chasis en CAD](imagenes/cad_chasis_web.jpg)
 
+Chasis recién imprimido (sin material de soporte):
+
 ![Chasis en impresora](imagenes/chasis_en_impresora.jpg)
+
+Sets de piezas preparados para ser utilizados en el aula:
 
 ![Sets de piezas en aula](imagenes/sets_piezas_1_web.jpg)
 
