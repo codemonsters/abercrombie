@@ -1,6 +1,6 @@
 # Abercrombie
 
-Robot cuadrúpedo didáctico y minimalista basado en un Arduino Nano, 2 servos SG90 y varias piezas sencillas imprimibles en 3D.
+Robot cuadrúpedo didáctico y minimalista basado en un Arduino Nano, 2 servos SG90 y varias piezas muy fáciles de imprimir.
 
 ## Descripción
 
