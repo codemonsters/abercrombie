@@ -83,7 +83,7 @@ Vídeo con sus primeros pasos (prototipo):
 
 Esquema básico de conexiones para su montaje utilizando una perfboard:
 
-![Esquema conexiones](imagenes/esquema_conexiones.png)
+![Esquema conexiones](imagenes/esquema_perfboard.png)
 Tras el montaje debería quedar espacio libre en la perfoard para añadir componentes extra
 
 
