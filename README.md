@@ -69,6 +69,7 @@ Vídeo con sus primeros pasos (prototipo):
 * 2x Servos SG90
 * Si quieres soldar elementos en una placa:
     * 1x Placa perforada / perfboard
+    * 1x Zócalo para conectar la placa Arduino Nano
     * 1x Interruptor que pueda ser soldado en la perfboard
     * Cualquier otro componente que quieras añadir: un zumbador, ledes, resistencias LDR...
 * Si prefieres simplificar las cosas y no soldar nada:
