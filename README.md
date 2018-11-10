@@ -55,7 +55,34 @@ Sets de piezas preparados para ser utilizados en el aula:
 
 ![Sets de piezas en aula](imagenes/sets_piezas_2_web.jpg)
 
-Sus primeros pasos (prototipo)
+Vídeo con sus primeros pasos (prototipo):
 
-[![Vídeo primeros pasos (prototipo)](https://img.youtube.com/vi/WuDx59RuUR0/0.jpg)](https://www.youtube.com/watch?v=WuDx59RuUR0&feature=youtu.be)
+[![Vídeo primeros pasos (prototipo)](https://img.youtube.com/vi/WuDx59RuUR0/0.jpg)](https://www.youtube.com/watch?v=WuDx59RuUR0)
 
+¡Están vivos! Robots construidos durante una actividad:
+
+[![¡Están vivos!](https://img.youtube.com/vi/RpZjiBUb5sI/0.jpg)](https://www.youtube.com/watch?v=RpZjiBUb5sI)
+
+## Lista de materiales
+
+* 1x Arduino Nano
+* 2x Servos SG90
+* Si quieres soldar elementos en una placa:
+    * 1x Placa perforada / perfboard
+* Si prefieres simplificar las cosas y no soldar nada:
+    * 1x Sensor shield para Arduino Nano
+    * 1x Conector pila 9v a jack de alimentación Arduino
+* 1x Pila 9v
+* Impresión de las siguientes piezas:
+    * 1x Chasis
+    * 1x Rueda dentada
+    * 1x Patas traseras
+    * 2x Patas delanteras
+
+## Construcción
+
+*Próximamente*
+
+## Sketch Arduino
+
+*Próximamante*
