@@ -73,7 +73,7 @@ Vídeo con sus primeros pasos (prototipo):
     * 1x Sensor shield para Arduino Nano
     * 1x Conector pila 9v a jack de alimentación Arduino
 * 1x Pila 9v
-* Impresión de las siguientes piezas:
+* Impresión de las siguientes piezas (modelos publicados en la carpeta [stl](./stl)):
     * 1x Chasis
     * 1x Rueda dentada
     * 1x Patas traseras
@@ -81,8 +81,12 @@ Vídeo con sus primeros pasos (prototipo):
 
 ## Construcción
 
-*Próximamente*
+Esquema básico de conexiones para su montaje utilizando una perfboard:
+
+![Esquema conexiones](imagenes/esquema_conexiones.png)
+Tras el montaje debería quedar espacio libre en la perfoard para añadir componentes extra
+
 
 ## Sketch Arduino
 
-*Próximamente*
+Publicado en la carpeta [src](./src)
