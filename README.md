@@ -10,7 +10,7 @@ Una clara inspiración para desarrollar este robot fue sin duda el fantástico d
 
 ## Motivación
 
-El robot está diseñado para ser construido y utilizado en el aula. Pretende ser una base para que niños, jóvenes y por supuesto cualquier adulto pueda construir, programar y personalizar su propio robot, incluso teniendo poca o ninguna experiencia previa en este tipo de problemática.
+El robot está diseñado para ser construido y utilizado en el aula. Pretende ser una base para que niños, jóvenes y por supuesto cualquier adulto pueda construir, programar y personalizar su propio robot. Su diseño es en todos los aspectos intencionadamente simple, lo que le convierte en un buen proyecto de iniciación para personas sin mayores conocimientos en programación, electrónica o impresión 3D. Al mismo tiempo el robot se puede utilizar en actividades educativas dedicadas a distintas áreas de la robótica: tratar solo el diseño y la impresión 3D, centrar más la actividad en la electrónica o la programación, construir el robot desde cero participando en toda la problemática de forma más detallada...
 
 Pros:
 
