@@ -6,11 +6,11 @@ Robot cuadrúpedo didáctico y minimalista basado en un Arduino Nano, 2 servos S
 
 Abercrombie es un robot cuadrúpedo extremadamente sencillo pensado sobre todo para ser utilizado en el aula, pero también para todo aquel que quiera construir un primer robot sencillo desde cero.
 
-Una clara inspiración para desarrollar este robot fue sin duda el fantástico diseño de Randy Sarafan [accesible desde aquí](https://www.instructables.com/id/3D-Printed-Robot/). Es un robot indudablemente bonito y bien diseñado, pero con fines didácticos se adapta mejor un robot más fácil de imprimir y que utilice servomotores más estándar.
+Una clara inspiración para desarrollar este robot fue sin duda el fantástico diseño de Randy Sarafan [accesible desde aquí](https://www.instructables.com/id/3D-Printed-Robot/). Es un robot bonito con un diseño muy bien planteado, pero para fines didácticos se adapta mejor un robot más pequeño, fácil y rápido de imprimir y que esté formado por componentes que sean muy fáciles de conseguir.
 
 ## Motivación
 
-El robot está diseñado para ser construido y ademaś utilizado en el aula.
+El robot está diseñado para ser construido y utilizado en el aula. Pretende ser una base para que niños, jóvenes y por supuesto cualquier adulto pueda construir, programar y personalizar su propio robot, incluso teniendo poca o ninguna experiencia previa en este tipo de problemática.
 
 Pros:
 
@@ -69,6 +69,8 @@ Vídeo con sus primeros pasos (prototipo):
 * 2x Servos SG90
 * Si quieres soldar elementos en una placa:
     * 1x Placa perforada / perfboard
+    * 1x Interruptor que pueda ser soldado en la perfboard
+    * Cualquier otro componente que quieras añadir: un zumbador, ledes, resistencias LDR...
 * Si prefieres simplificar las cosas y no soldar nada:
     * 1x Sensor shield para Arduino Nano
     * 1x Conector pila 9v a jack de alimentación Arduino
