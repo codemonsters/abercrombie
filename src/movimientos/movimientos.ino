@@ -4,7 +4,7 @@
     www.codemonsters.es
 */
 
-#include <Servo.h> 
+#include <Servo.h>
 
 #define PIN_SERVO_DELANTERO 5
 #define PIN_SERVO_TRASERO 6
@@ -14,13 +14,13 @@
 #define FACTOR_TRASERO 0.5    // De 0 a 1 (para reducir el movimiento de las patas traseras)
 #define PAUSA_ENTRE_MOVIMIENTOS  300 // En mili
 
-Servo servoDelantero; 
-Servo servoTrasero; 
+Servo servoDelantero;
+Servo servoTrasero;
 int gradosLibresDelantero = 0;
 int gradosLibresTrasero = 0;
 
-void setup() 
-{ 
+void setup()
+{
   // Calculamos cuántos grados libres nos quedan como máximo para poder movernos con cada servo (cuanto más se aleje de 90 el centro de cada servo, menos grados libres tendremos)
   if (CENTRO_DELANTERO > 90) {
     gradosLibresDelantero = 180 - CENTRO_DELANTERO;
@@ -32,25 +32,25 @@ void setup()
   } else {
     gradosLibresTrasero = CENTRO_TRASERO;
   }
-  
+
   // Inicializamos los servos
-  servoDelantero.attach(PIN_SERVO_DELANTERO); 
-  servoTrasero.attach(PIN_SERVO_TRASERO); 
-  
+  servoDelantero.attach(PIN_SERVO_DELANTERO);
+  servoTrasero.attach(PIN_SERVO_TRASERO);
+
   // Ponemos ambos servos en su posición central
   posicionInicio();
 
   delay(1000);
-} 
+}
 
 
-void loop() 
+void loop()
 {
   avanza();
   //giraIzquierda();
   //giraDerecha();
   //retrocede();
-} 
+}
 
 // Avanza un paso
 void avanza(){
@@ -89,6 +89,6 @@ void retrocede() {
 }
 
 void posicionInicio() {
-  servoDelantero.write(CENTRO_DELANTERO);  
-  servoTrasero.write(CENTRO_TRASERO); 
+  servoDelantero.write(CENTRO_DELANTERO);
+  servoTrasero.write(CENTRO_TRASERO);
 }

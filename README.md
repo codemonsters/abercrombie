@@ -89,4 +89,8 @@ Tras el montaje debería quedar espacio libre en la perfoard para añadir compon
 
 ## Sketch Arduino
 
-Publicado en la carpeta [src](./src)
+En la carpeta [src](./src) se han publicado los siguientes sketches Arduino de ejemplo:
+
+* minimo.ino: Movimiento recto. Código simplificado al máximo.
+* simple.ino: Movimiento recto. Añadidos algunas definiciones para adaptar el funcionamiento del robot según la posición inicial de cada servo (para facilitar su configuración a las pequeñas variaciones originadas durante el montaje).
+* movimientos.ino: Similar a simple.ino pero añadidas funciones para que el robot pueda girar y retroceder.
