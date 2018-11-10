@@ -85,4 +85,4 @@ Vídeo con sus primeros pasos (prototipo):
 
 ## Sketch Arduino
 
-*Próximamante*
+*Próximamente*
