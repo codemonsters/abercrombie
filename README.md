@@ -37,7 +37,7 @@ Su diseño permite llevar a cabo actividades en las que se pueda experimentar co
 
 Asimismo el chasis del robot cuenta con unos conectores en la parte frontal que permiten conectar piezas intercambiables. Estas piezas podrían ser diseños imprimidos en 3D creados con finalidad decorativa o bien funcional.
 
-## Imágenes
+## Galería
 
 Capturas de pantalla (ejem...) mostrando el diseño de las piezas 3D:
 
@@ -54,3 +54,8 @@ Sets de piezas preparados para ser utilizados en el aula:
 ![Sets de piezas en aula](imagenes/sets_piezas_1_web.jpg)
 
 ![Sets de piezas en aula](imagenes/sets_piezas_2_web.jpg)
+
+Sus primeros pasos (prototipo)
+
+[![Vídeo primeros pasos (prototipo)](https://img.youtube.com/vi/WuDx59RuUR0/0.jpg)](https://www.youtube.com/watch?v=WuDx59RuUR0&feature=youtu.be)
+
