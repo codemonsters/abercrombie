@@ -37,6 +37,12 @@ Su diseño permite llevar a cabo actividades en las que se pueda experimentar co
 
 Asimismo el chasis del robot cuenta con unos conectores en la parte frontal que permiten conectar piezas intercambiables. Estas piezas podrían ser diseños imprimidos en 3D creados con finalidad decorativa o bien funcional.
 
+## Estado actual del proyecto
+
+El robot ya se puede construir y utilizar. Posiblemente la mejora más necesaria que todavía está pendiente es modificar el diseño del chasis para que se pueda colocar la sensor shield correctamente (actualmente el anclaje de la parte superior del chasis permite encajar correctamente una perfboard y en cambio el sensor shield no tiene un anclaje adecuado, haciendo necesario el uso de bridas, gomas elásticas o cualquier otro elemento para fijarlo).
+
+El sketch "movimientos.ino" no tiene implementada la función de avance hacia atrás. En cualquier caso escribir esa función a partir del movimiento hacia adelante es una tarea muy sencilla.
+
 ## Galería
 
 Capturas de pantalla (ejem...) mostrando el diseño de las piezas 3D:
@@ -62,12 +68,6 @@ Vídeo con sus primeros pasos (prototipo):
 ¡Están vivos! Robots construidos durante una actividad:
 
 [![¡Están vivos!](https://img.youtube.com/vi/RpZjiBUb5sI/0.jpg)](https://www.youtube.com/watch?v=RpZjiBUb5sI)
-
-## Estado actual del proyecto
-
-El robot ya se puede construir y utilizar. Posiblemente la mejora más necesaria que todavía está pendiente es modificar el diseño del chasis para que se pueda colocar la sensor shield correctamente (actualmente el anclaje de la parte superior del chasis permite encajar correctamente una perfboard y en cambio el sensor shield no tiene un anclaje adecuado, haciendo necesario el uso de bridas, gomas elásticas o cualquier otro elemento para fijarlo).
-
-El sketch "movimientos.ino" no tiene implementada la función de avance hacia atrás. En cualquier caso escribir esa función a partir del movimiento hacia adelante es una tarea muy sencilla.
 
 ## Lista de materiales
 
