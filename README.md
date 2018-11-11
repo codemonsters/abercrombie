@@ -6,11 +6,11 @@ Robot cuadrúpedo didáctico y minimalista basado en un Arduino Nano, dos servos
 
 Abercrombie es un robot cuadrúpedo extremadamente sencillo pensado sobre todo para ser utilizado en el aula, pero también para todo aquel que quiera construir un primer robot sencillo desde cero.
 
-Una clara inspiración para desarrollar este robot fue sin duda el fantástico diseño de Randy Sarafan [accesible desde aquí](https://www.instructables.com/id/3D-Printed-Robot/). Es un robot bonito con un diseño muy bien planteado, pero para fines didácticos se adapta mejor un robot más pequeño, fácil y rápido de imprimir y que esté formado por componentes que sean muy fáciles de conseguir.
+Su diseño general y particularmente el mecanismo que usa para desplazarse está basado en el fantástico robot creado por Randy Sarafan [accesible desde aquí](https://www.instructables.com/id/3D-Printed-Robot/). Es un robot bonito y un proyecto muy bien planteado, pero para fines didácticos se adapta mejor un robot más pequeño, más fácil de imprimir y que esté formado por componentes electrónicos económicos y de uso más frecuente.
 
 ## Motivación
 
-El robot está diseñado para ser construido y utilizado en el aula. Pretende ser una base para que niños, jóvenes y por supuesto cualquier adulto pueda construir, programar y personalizar su propio robot. Su diseño es en todos los aspectos intencionadamente simple, lo que le convierte en un buen proyecto de iniciación para personas sin mayores conocimientos en programación, electrónica o impresión 3D. Al mismo tiempo el robot se puede utilizar en actividades educativas dedicadas a distintas áreas de la robótica: tratar solo el diseño y la impresión 3D, centrar más la actividad en la electrónica o la programación, construir el robot desde cero participando en toda la problemática de forma más detallada...
+El robot está diseñado para ser construido y utilizado en el aula. Pretende ser una base para que niños, jóvenes y por supuesto cualquier adulto pueda construir, programar y personalizar su propio robot. Su diseño es en todos los aspectos intencionadamente simple, lo que le convierte en un buen proyecto de iniciación para personas sin mayores conocimientos en programación, electrónica o impresión 3D. Al mismo tiempo el robot se puede utilizar en actividades educativas dedicadas a distintas áreas de la robótica: tratar solo el diseño y la impresión 3D, dirigir la actividad hacia la electrónica o la programación, construir el robot desde cero participando en toda la problemática de forma más detallada...
 
 Pros:
 
@@ -24,7 +24,7 @@ Pros:
 
 Contras:
 
-* Es un cuadrúpedo, y esto es también un inconveniente ya que su desplazamiento hace muy complicada su utilización en ciertas actividades en las que contar con unas ruedas sería mucho más adecuado (ej: robot siguelíneas).
+* Es un cuadrúpedo. Porque esto también es un inconveniente ya que su desplazamiento hace muy complicada su utilización en ciertas actividades en las que contar con unas ruedas sería mucho más adecuado (ej: robot siguelíneas).
 
 ## Amigable para el aula
 
@@ -41,19 +41,19 @@ Asimismo el chasis del robot cuenta con unos conectores en la parte frontal que 
 
 Capturas de pantalla (ejem...) mostrando el diseño de las piezas 3D:
 
-![Piezas CAD](imagenes/cad_piezas_web.jpg)
+![Piezas CAD](images/cad_piezas_web.jpg)
 
-![Chasis en CAD](imagenes/cad_chasis_web.jpg)
+![Chasis en CAD](images/cad_chasis_web.jpg)
 
 Chasis recién imprimido (sin material de soporte):
 
-![Chasis en impresora](imagenes/chasis_en_impresora.jpg)
+![Chasis en impresora](images/chasis_en_impresora.jpg)
 
 Sets de piezas preparados para ser utilizados en el aula:
 
-![Sets de piezas en aula](imagenes/sets_piezas_1_web.jpg)
+![Sets de piezas en aula](images/sets_piezas_1_web.jpg)
 
-![Sets de piezas en aula](imagenes/sets_piezas_2_web.jpg)
+![Sets de piezas en aula](images/sets_piezas_2_web.jpg)
 
 Vídeo con sus primeros pasos (prototipo):
 
@@ -62,6 +62,12 @@ Vídeo con sus primeros pasos (prototipo):
 ¡Están vivos! Robots construidos durante una actividad:
 
 [![¡Están vivos!](https://img.youtube.com/vi/RpZjiBUb5sI/0.jpg)](https://www.youtube.com/watch?v=RpZjiBUb5sI)
+
+## Estado actual del proyecto
+
+El robot ya se puede construir y utilizar. Posiblemente la mejora más necesaria que todavía está pendiente es modificar el diseño del chasis para que se pueda color el sensor shield correctamente (actualmente el anclaje de la parte superior del chasis permite encajar correctamente una perfboard y en cambio el sensor shield no tiene un anclaje adecuado, haciendo necesario el uso de bridas, gomas elásticas o cualquier otro elemento para fijarlo).
+
+El sketch "movimientos.ino" no tiene implementada la función de avance hacia atrás. En cualquier caso escribir esa función a partir del movimiento hacia adelante es una tarea muy sencilla.
 
 ## Lista de materiales
 
@@ -86,7 +92,7 @@ Vídeo con sus primeros pasos (prototipo):
 
 Esquema básico de conexiones para su montaje utilizando una perfboard:
 
-![Esquema conexiones](imagenes/esquema_perfboard.png)
+![Esquema conexiones](images/esquema_perfboard.png)
 Tras el montaje debería quedar espacio libre en la perfoard para añadir componentes extra
 
 
