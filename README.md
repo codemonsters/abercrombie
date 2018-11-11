@@ -65,7 +65,7 @@ Vídeo con sus primeros pasos (prototipo):
 
 ## Estado actual del proyecto
 
-El robot ya se puede construir y utilizar. Posiblemente la mejora más necesaria que todavía está pendiente es modificar el diseño del chasis para que se pueda color el sensor shield correctamente (actualmente el anclaje de la parte superior del chasis permite encajar correctamente una perfboard y en cambio el sensor shield no tiene un anclaje adecuado, haciendo necesario el uso de bridas, gomas elásticas o cualquier otro elemento para fijarlo).
+El robot ya se puede construir y utilizar. Posiblemente la mejora más necesaria que todavía está pendiente es modificar el diseño del chasis para que se pueda colocar la sensor shield correctamente (actualmente el anclaje de la parte superior del chasis permite encajar correctamente una perfboard y en cambio el sensor shield no tiene un anclaje adecuado, haciendo necesario el uso de bridas, gomas elásticas o cualquier otro elemento para fijarlo).
 
 El sketch "movimientos.ino" no tiene implementada la función de avance hacia atrás. En cualquier caso escribir esa función a partir del movimiento hacia adelante es una tarea muy sencilla.
 
@@ -79,7 +79,7 @@ El sketch "movimientos.ino" no tiene implementada la función de avance hacia at
     * 1x Interruptor que pueda ser soldado en la perfboard
     * Cualquier otro componente que quieras añadir: un zumbador, ledes, resistencias LDR...
 * Si prefieres simplificar las cosas y no soldar nada:
-    * 1x Sensor shield para Arduino Nano
+    * 1x Sensor shield para Arduino Nano (Nano Shield)
     * 1x Conector pila 9v a jack de alimentación Arduino
 * 1x Pila 9v
 * Impresión de las siguientes piezas (modelos publicados en la carpeta [stl](./stl)):
