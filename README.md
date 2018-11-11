@@ -2,24 +2,22 @@
 
 Robot cuadrúpedo didáctico y minimalista basado en un Arduino Nano, dos servos SG90 y varias piezas muy fáciles de imprimir.
 
-## Descripción
+Su diseño es extremadamente simple. Está pensado sobre todo para ser utilizado en el aula, pero también para todo aquel que quiera construir un primer robot desde cero.
 
-Se trata de un robot cuadrúpedo extremadamente simple pensado sobre todo para ser utilizado en el aula, pero también para todo aquel que quiera construir un primer robot desde cero.
-
-Su diseño general y particularmente el mecanismo que usa para desplazarse está basado en el fantástico robot creado por Randy Sarafan [accesible desde aquí](https://www.instructables.com/id/3D-Printed-Robot/). Es un robot bonito y un proyecto muy bien planteado, pero para fines didácticos se adapta mejor un robot más pequeño, más fácil de imprimir y que esté formado por componentes electrónicos económicos y de uso más frecuente.
+Su diseño general y particularmente el mecanismo que usa para desplazarse está basado en el fantástico robot creado por Randy Sarafan [accesible desde aquí](https://www.instructables.com/id/3D-Printed-Robot/). Es un robot muy bien planteado y para fines didácticos sería bueno contar con uno similar pero más pequeño, fácil de imprimir y que esté formado por componentes electrónicos muy económicos y fáciles de conseguir.
 
 ## Motivación
 
-El robot está diseñado para ser construido y utilizado en el aula. Pretende ser una base para que niños, jóvenes y por supuesto cualquier adulto pueda construir, programar y personalizar su propio robot. Su diseño es en todos los aspectos intencionadamente simple, lo que le convierte en un buen proyecto de iniciación para personas sin mayores conocimientos en programación, electrónica o impresión 3D. Al mismo tiempo el robot se puede utilizar en actividades educativas dedicadas a distintas áreas de la robótica: tratar solo el diseño y la impresión 3D, dirigir la actividad hacia la electrónica o la programación, construir el robot desde cero participando en toda la problemática de forma más detallada...
+El robot está diseñado para ser construido, personalizado y programado en el aula. Pretende ser una base para que niños, jóvenes y por supuesto cualquier adulto pueda crear su propio robot. Su diseño es en todos los aspectos intencionadamente simple, lo que le convierte en un buen proyecto de iniciación para personas sin mayores conocimientos en programación, electrónica o impresión 3D. Al mismo tiempo el robot se puede utilizar en actividades educativas dedicadas a distintas áreas de la robótica: tratar solo el diseño y la impresión 3D, dirigir la actividad hacia la electrónica o la programación o construir el robot desde cero participando en toda la problemática de forma más detallada.
 
 Pros:
 
 * Diseño completamente abierto y licencia muy permisiva (GPL3 para el código y CC BY-NC-SA 4.0 para las piezas 3D).
-* Electrónica estándar y extremadamente simple: dos servos SG90, un Arduino Nano, una pila de 9V y poco más.
+* Electrónica estándar y extremadamente simple: dos servos SG90, una placa Arduino Nano, una pila de 9V y poco más.
 * Impresión 3D sencilla: pocas piezas, de tamaño contenido e imprimibles sin necesidad de material de soporte.
 * Un buen primer proyecto para iniciarse en la robótica.
-* Extensible: En la placa perforada además caber una placa Arduino Nano debería quedar espacio libre para añadir elementos extra: un zumbador, pulsadores, ledes, un sensor de ultrasonidos, resistencias LDR...
-* Personalizable: Se pueden conectar piezas también imprimidas en 3D a su parte frontal.
+* Extensible: En la placa perforada además de caber una placa Arduino Nano debería quedar espacio libre para añadir elementos extra: un zumbador, pulsadores, ledes, un sensor de ultrasonidos, resistencias LDR...
+* Personalizable: Además de crear nuevos diseños para cualquier de sus partes, el chasis cuenta con unos conectores en la parte frontal para añadir piezas diseñadas por nosotros.
 * Es un cuadrúpedo. Un poco torpe (pobriño...), pero con un aspecto y movimiento simpático y amigable.
 
 Contras:
@@ -93,8 +91,8 @@ El sketch "movimientos.ino" no tiene implementada la función de avance hacia at
 Esquema básico de conexiones para su montaje utilizando una perfboard:
 
 ![Esquema conexiones](images/esquema_perfboard.png)
-Tras el montaje debería quedar espacio libre en la perfoard para añadir componentes extra
 
+El anterior esquema muestra un montaje sencillo, donde únicamente existe un interruptor para encender o apagar el robot. Colocando la placa con el conector USB hacia la derecha quedaría más espacio disponible para por ejemplo añadir pulsadores con los que programar una secuencia de movimientos, un zumbador para emitir sonidos, un led RGB o cualquier otro componente.
 
 ## Sketch Arduino
 
@@ -103,3 +101,9 @@ En la carpeta [src](./src) se han publicado los siguientes sketches Arduino de e
 * minimo.ino: Movimiento recto. Código simplificado al máximo.
 * simple.ino: Movimiento recto. Añadidos algunas definiciones para adaptar el funcionamiento del robot según la posición inicial de cada servo (para facilitar su configuración a las pequeñas variaciones originadas durante el montaje).
 * movimientos.ino: Similar a simple.ino pero añadidas funciones para que el robot pueda girar y retroceder.
+
+## Colabora
+
+Si construyes tu propio robot o lo utilizas en alguna actividad envía por favor una foto. ¡Sería genial verlo!
+
+¿Has realizado alguna mejora o modificación? ¡Comparte tu trabajo!
