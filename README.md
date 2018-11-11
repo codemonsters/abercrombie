@@ -4,11 +4,13 @@ Robot cuadrúpedo didáctico y minimalista basado en un Arduino Nano, dos servos
 
 Su diseño es extremadamente simple. Está pensado sobre todo para ser utilizado en el aula, pero también para todo aquel que quiera construir un primer robot desde cero.
 
-Su diseño general y particularmente el mecanismo que usa para desplazarse está basado en el fantástico robot creado por Randy Sarafan [accesible desde aquí](https://www.instructables.com/id/3D-Printed-Robot/). Es un robot muy bien planteado y para fines didácticos sería bueno contar con uno similar pero más pequeño, fácil de imprimir y que esté formado por componentes electrónicos muy económicos y fáciles de conseguir.
+El planteamiento general y particularmente el mecanismo que usa para desplazarse está basado en el fantástico robot creado por Randy Sarafan [accesible desde aquí](https://www.instructables.com/id/3D-Printed-Robot/). Es un robot muy sencillo y bien pensado. Para fines didácticos sería bueno contar con uno similar pero más pequeño, fácil de imprimir y que esté formado por componentes electrónicos muy económicos y fáciles de conseguir.
 
 ## Motivación
 
 El robot está diseñado para ser construido, personalizado y programado en el aula. Pretende ser una base para que niños, jóvenes y por supuesto cualquier adulto pueda crear su propio robot. Su diseño es en todos los aspectos intencionadamente simple, lo que le convierte en un buen proyecto de iniciación para personas sin mayores conocimientos en programación, electrónica o impresión 3D. Al mismo tiempo el robot se puede utilizar en actividades educativas dedicadas a distintas áreas de la robótica: tratar solo el diseño y la impresión 3D, dirigir la actividad hacia la electrónica o la programación o construir el robot desde cero participando en toda la problemática de forma más detallada.
+
+## Características generales
 
 Pros:
 
