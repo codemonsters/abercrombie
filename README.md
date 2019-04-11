@@ -45,6 +45,14 @@ El robot ya se puede construir y utilizar. Posiblemente la mejora más necesaria
 
 El sketch "movimientos.ino" no tiene implementada la función de avance hacia atrás. En cualquier caso escribir esa función a partir del movimiento hacia adelante es una tarea muy sencilla.
 
+## Revisiones
+
+* v1.4: Mejorado el diseño del chasis para que pueda albergar tanto un sensor shield como una perfboard
+* v1.3: Pequeñas modificaciones en el chasis para minimizar zonas de impresión completamente horizontales sin soporte
+* v1.2: Modificado el diseño chasis para que se pueda imprimir en menos tiempo y utilizando menos material
+* v1.1: Modificado el diseño de varias piezas para que se puedan imprimir sin soporte
+* v1.0: Primera versión funcionalmente completa
+
 ## Galería
 
 Capturas de pantalla (fotos hechas con el móvil... perdón) mostrando el diseño de las piezas 3D:
@@ -117,9 +125,8 @@ Una vez tengamos delante de nosotros las piezas imprimidas y el resto del materi
 
 En la carpeta [src](./src) se han publicado los siguientes sketches Arduino de ejemplo:
 
-* minimo.ino: Movimiento recto. Código simplificado al máximo.
-* simple.ino: Movimiento recto. Añadidos algunas definiciones para adaptar el funcionamiento del robot según la posición inicial de cada servo (para facilitar su configuración a las pequeñas variaciones originadas durante el montaje).
-* movimientos.ino: Similar a simple.ino pero añadidas funciones para que el robot pueda girar y retroceder.
+* minimum.ino: Movimiento recto. Código didáctico y simplificado al máximo.
+* abercrombie.ino: Tiene métodos para avanzar, girar y caminar hacia atrás. Añadidas definiciones para ajustar fácilmente el funcionamiento del robot según la posición inicial de cada servo (para facilitar su configuración a las pequeñas variaciones originadas durante el montaje).
 
 ## Colabora
 
