@@ -41,9 +41,7 @@ Asimismo el chasis del robot cuenta con unos conectores en la parte frontal que 
 
 ## Estado actual del proyecto
 
-El robot ya se puede construir y utilizar. Posiblemente la mejora más necesaria que todavía está pendiente es modificar el diseño del chasis para que se pueda colocar la sensor shield correctamente (actualmente el anclaje de la parte superior del chasis permite encajar correctamente una perfboard y en cambio el sensor shield no tiene un anclaje adecuado, haciendo necesario el uso de bridas, gomas elásticas o cualquier otro elemento para fijarlo).
-
-El sketch "movimientos.ino" no tiene implementada la función de avance hacia atrás. En cualquier caso escribir esa función a partir del movimiento hacia adelante es una tarea muy sencilla.
+El robot ya se puede construir de ambas formas y realiza todos los movimientos para los que fue diseñado. El actual diseño de su chasis ya permite conectar tanto una sensor shield como una perfboard, lo que hace posible que su montaje se pueda realizar simplemente conectando elementos o bien soldando nuestro propio circuito en la perfboard.
 
 ## Revisiones
 
