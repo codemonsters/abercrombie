@@ -1,12 +1,12 @@
 # Abercrombie
 
-Four-legged didactic and minimalistic robot built with an Arduino Nano board, two SG90 servos and five easy to print parts.
+Four-legged didactic and minimalistic robot using an Arduino Nano board, two SG90 servos and five easy to print parts.
+
+The design is extremely simple. It is meant to be used in the classroom and also by anyone that wants to assemble his first robot from scratch.
 
 ([versión en español aquí](README.es.md))
 
 ![Abercrombie](images/abercrombie_web.jpg)
-
-The design is extremely simple. It is meant to be used in the classroom and also by anyone that wants to assemble his first robot from scratch.
 
 ## Motivation
 
@@ -25,101 +25,100 @@ The robot can be used in educational activities dedicated to different aspects o
 
 Pros:
 
-* Un buen primer proyecto para iniciarse en la robótica.
-* Completely open design with very permisive license (GPL3 for the code and CC BY-NC-SA 4.0 for the 3D printed parts).
+* Simple and completely open design with a very permisive license (GPL3 for the code and CC BY-NC-SA 4.0 for the 3D printed parts).
 * Standard and extremelly simple electronics: mostly just two SG90 servos, one Arduino Nano board, a Nano sensor shield (or a perfboard) and a 9V battery.
 * Very easy to print: just a few parts of reduced size that don't need support material while printing.
-* Customizable: Creating new designs for any of his parts, but also because the chasis has connectors in the front area to attach any new piece designed by us.
+* Customizable: Creating new designs for any of his parts, but also because the chassis has connectors in the front area to attach any new piece designed by us.
 * Extensible: After soldering an Arduino Nano board the perfboard should have enough free space to add extra componentes: a buzzer, LED lights, an ultraosinic sensor, LDR resistors...
-* Is a four-legged robot. Sure it is a bit clumsy, but also lovely and funny while walking.
+* It is a four-legged robot. And a bit clumsy, but also lovely and funny while walking.
 
 Cons:
 
-* Es un cuadrúpedo. Porque esto también es un inconveniente ya que su desplazamiento hace muy complicada su utilización en ciertas actividades en las que contar con unas ruedas sería mucho más adecuado (ej: robot siguelíneas).
+* It is a four-legged robot. Sure this is also and disadvantage and his movement is not suited for certain activities where wheeled robots are much better (i.e.: using it with line following circuits).
 
-## Amigable para el aula
+## Friendly for the classroom
 
-El robot puede ser utilizado y además construido en el aula ya que es sencillo, el precio por unidad es muy reducido y los tiempos de impresión de las piezas necesarios son bastante razonables. Esto siempre que tratemos grupos pequeños o bien contemos con un número adecuado de impresoras hace viable construir uno por alumno.
+The robot can be used and also built in the classroom: it is simple, price per unit is very low and printing times for all the parts are quiet reasonable. Depeding on the size of the group and the number of printers available it could be feasible to build one per student.
 
-Su diseño permite llevar a cabo actividades en las que se pueda experimentar con las tres ramas fundamentales de la robótica:
-* Mecánica: Hace uso de una rueda dentada, cremalleras y servomotores.
-* Electrónica: Es posible construir el robot soldando distintos elementos en una placa perforada estándar y añadir elementos nuevos. Por contra también se puede simplificar su construcción utilizando una sensor shield para Arduino Nano, lo que eliminaría el uso de soldadores y componentes discretos, siendo solo necesario conectar elementos de una manera muy sencilla.
-* Programación: A pesar de sus capacidades motrices limitadas es posible programarlo para realizar movimientos hacia adelante, atrás y giros en ambas direcciones.
+The design of the robot is suited to focus the activity in any of the main areas of robotics:
+* Mechanics: It uses a gear wheel, gear racks and servomotors.
+* Electronics: It is possible to build the robot soldering the needed components in a standard perfboard and add new elements. On the other hand is also possible to simplify its construction using an Arduino Nano sensor shield. That way one should just plug the connectors to the board using his bare hands.
+* Programming: Even with its simplistic design, the robot can be programmed to walk forward, backwards and to turn in both directions.
 
-Asimismo el chasis del robot cuenta con unos conectores en la parte frontal que permiten conectar piezas intercambiables. Estas piezas podrían ser diseños imprimidos en 3D creados con finalidad decorativa o bien funcional.
+The chassis of the robot has four connectors in the front to allow attaching swappable parts. These part could have aesthetical purposes (a new face for the robot) or even functional.
 
-## Estado actual del proyecto
+## Current state of the project
 
-El robot ya se puede construir de ambas formas y realiza todos los movimientos para los que fue diseñado. El actual diseño de su chasis ya permite conectar tanto una sensor shield como una perfboard, lo que hace posible que su montaje se pueda realizar simplemente conectando elementos o bien soldando nuestro propio circuito en la perfboard.
+The current design of the robot is ready to be built with both kind of boards (sensor shield or perfboard) and it is also able to make all the basic movements it was meant for (walking forward, backward and turning in both directions).
 
-## Historial de versiones
+## Version history
 
-* v1.4: Mejorado el diseño del chasis para que pueda albergar tanto un sensor shield como una perfboard
-* v1.3: Pequeñas modificaciones en el chasis para minimizar zonas de impresión completamente horizontales sin soporte
-* v1.2: Modificado el diseño chasis para que se pueda imprimir en menos tiempo y utilizando menos material
-* v1.1: Modificado el diseño de varias piezas para que se puedan imprimir sin soporte
-* v1.0: Primera versión funcionalmente completa
+* v1.4: Design improvements in the chassis to allow attaching both a perfboard or a Nano sensor shield.
+* v1.3: Small modifications in the chassis to minimize completely horizontal hanging areas.
+* v1.2: Chassis design changed to be printed in less time and using less material.
+* v1.1: Several parts modified to be printed without support material.
+* v1.0: First working version.
 
-## Galería
+## Gallery
 
-Capturas de pantalla (fotos hechas con el móvil... perdón) mostrando el diseño de las piezas 3D:
+Screenshots (pictures caputed with the phone... sorry) showing the desing of the parts:
 
-![Piezas CAD](images/cad_piezas_web.jpg)
+![CAD parts](images/cad_piezas_web.jpg)
 
-![Chasis en CAD](images/cad_chasis_web.jpg)
+![CAD chassis](images/cad_chasis_web.jpg)
 
-Chasis recién imprimido (sin material de soporte):
+Chassis just printed (without support material):
 
-![Chasis en impresora](images/chasis_en_impresora.jpg)
+![Chassis in printer](images/chasis_en_impresora.jpg)
 
-Sets de piezas preparados para ser utilizados en el aula:
+Collection of parts ready to be used in a group activity:
 
-![Sets de piezas en aula](images/sets_piezas_1_web.jpg)
+![Set of parts for the classroom](images/sets_piezas_1_web.jpg)
 
-![Sets de piezas en aula](images/sets_piezas_2_web.jpg)
+![Set of parts for the classroom](images/sets_piezas_2_web.jpg)
 
-Vídeo con sus primeros pasos (prototipo):
+Video with his first steps (prototype):
 
-[![Vídeo primeros pasos (prototipo)](https://img.youtube.com/vi/WuDx59RuUR0/0.jpg)](https://www.youtube.com/watch?v=WuDx59RuUR0)
+[![Video with his first steps (prototype)](https://img.youtube.com/vi/WuDx59RuUR0/0.jpg)](https://www.youtube.com/watch?v=WuDx59RuUR0)
 
-¡Están vivos! Robots construidos durante una actividad:
+They are alive! Robots built and customized during an activity:
 
 [![¡Están vivos!](https://img.youtube.com/vi/RpZjiBUb5sI/0.jpg)](https://www.youtube.com/watch?v=RpZjiBUb5sI)
 
-Perfboard a la que además de soldar un Arduino Nano se le han añadido pulsadores para programar secuencias de órdenes, un zumbador, un led RGB y un interruptor de encendido:
+Perfboard with an Arduino Nano soldered but also with added temporary switches to program the sequence of movements, a buzzer, a RGB LED and a power switch:
 
-![Perfboard con pulsadores](images/perfboard_con_pulsadores_web.jpg)
+![Perfboard with components](images/perfboard_con_pulsadores_web.jpg)
 
-Prototipo montado utilizando una sensor shield. Montaje plug & play: cero soldaduras, la conexión a la pila se realiza mediante un jack estándar y los servos se unen a la placa con el mismo conector dupont hembra triple que recibimos según los compramos).
+Prototype that uses a sensor shield. Plug & play assembly: zero soldering, the connections between the battery and the board used a standard power jack and the servos are directly connected to the sensor board using its own triple dupont female connector, no modifications needed).
 
-![Prototipo usando sensor shield](images/prototipo_con_sensor_shield_web.jpg)
+![Prototype using a sensor shield](images/prototipo_con_sensor_shield_web.jpg)
 
-## Lista de materiales
+## Bill of materials
 
-* 1x Arduino Nano
-* 2x Servos SG90
-* Si quieres soldar elementos en una placa:
-    * 1x Placa perforada / perfboard
-    * 1x Zócalo para conectar la placa Arduino Nano
-    * 1x Interruptor que pueda ser soldado en la perfboard
-    * Cualquier otro componente que quieras añadir: un zumbador, ledes, resistencias LDR...
-* Si prefieres simplificar las cosas y no soldar nada:
-    * 1x Sensor shield para Arduino Nano (Nano Shield)
-    * 1x Conector pila 9v a jack de alimentación Arduino
-* 1x Pila 9v
-* Impresión de las siguientes piezas (modelos publicados en la carpeta [stl](./stl)):
-    * 1x Chasis
-    * 1x Rueda dentada
-    * 1x Patas traseras
-    * 2x Patas delanteras
+* 1x Arduino Nano board
+* 2x SG90 servos
+* In case you want to solder the elements:
+    * 1x perfboard
+    * 1x Arduino Nano socket
+    * 1x power switch (breadboard friendly)
+    * Any other component you want to add: un zumbador, ledes, resistencias LDR...
+* If you choose to simplify things and avoid soldering:
+    * 1x Arduino Nano Sensor Shield
+    * 1x 9v battery connector with an Arduino compatible jack
+* 1x 9v battery
+* Printing these parts (the models are published in the [stl](./stl) folder):
+    * 1x chassis
+    * 1x gear wheel
+    * 1x rear legs
+    * 2x forward legs
 
-## Construcción
+## Construction
 
-Esquema básico de conexiones para su montaje utilizando una perfboard:
+Basic electrical diagram to be used with a perfboard:
 
-![Esquema conexiones](images/esquema_perfboard.png)
+![Electrical diagram](images/esquema_perfboard.png)
 
-El anterior esquema muestra un montaje sencillo, donde únicamente existe un interruptor para encender o apagar el robot. Colocando la placa con el conector USB hacia la derecha quedaría más espacio disponible para por ejemplo añadir pulsadores con los que programar una secuencia de movimientos, un zumbador para emitir sonidos, un led RGB o cualquier otro componente.
+Former diagram shows a simple robot, having only a power switch. Place the Arduino Nano board so it has the USB connector to the right if you want to have more free space to add extra components like switches to program sequences of movements, a buzzer to make sounds, an RGB LED or any other component.
 
 Una vez tengamos delante de nosotros las piezas imprimidas y el resto del material necesario veremos que el procedimiento para montar el robot es prácticamente autoexplicativo. Posiblemente solo sea necesario comentar los siguientes puntos:
 

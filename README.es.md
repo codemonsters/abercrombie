@@ -2,11 +2,12 @@
 
 Robot cuadrúpedo didáctico y minimalista basado en una placa Arduino Nano, dos servos SG90 y varias piezas muy fáciles de imprimir.
 
+Su diseño es extremadamente simple. Está pensado sobre todo para ser utilizado en el aula, pero también para todo aquel que quiera construir un primer robot desde cero.
+
 ([english version here](README.md))
 
 ![Abercrombie](images/abercrombie_web.jpg)
 
-Su diseño es extremadamente simple. Está pensado sobre todo para ser utilizado en el aula, pero también para todo aquel que quiera construir un primer robot desde cero.
 
 ## Motivación
 
@@ -25,8 +26,7 @@ El robot se puede utilizar en actividades educativas dedicadas a distintas área
 
 Pros:
 
-* Un buen primer proyecto para iniciarse en la robótica.
-* Diseño completamente abierto y licencia muy permisiva (GPL3 para el código y CC BY-NC-SA 4.0 para las piezas 3D).
+* Diseño simple, completamente abierto y con licencia muy permisiva (GPL3 para el código y CC BY-NC-SA 4.0 para las piezas 3D).
 * Electrónica estándar y extremadamente simple: prácticamente solo dos servos SG90, una placa Arduino Nano, una placa de sensores Nano (o una placa perforada) y una pila de 9V.
 * Impresión 3D sencilla: pocas piezas, de tamaño contenido e imprimibles sin necesidad de material de soporte.
 * Personalizable: Además de crear nuevos diseños para cualquier de sus partes, el chasis cuenta con unos conectores en la parte frontal para añadir piezas diseñadas por nosotros.
@@ -35,30 +35,30 @@ Pros:
 
 Contras:
 
-* Es un cuadrúpedo. Porque esto también es un inconveniente ya que su desplazamiento hace muy complicada su utilización en ciertas actividades en las que contar con unas ruedas sería mucho más adecuado (ej: robot siguelíneas).
+* Es un cuadrúpedo. Porque esto también es un inconveniente ya que su desplazamiento hace muy complicada su utilización en ciertas actividades en las que contar con unas ruedas sería mucho más adecuado (ej: al utilizarlo en un circuito siguelíneas).
 
 ## Amigable para el aula
 
-El robot puede ser utilizado y además construido en el aula ya que es sencillo, el precio por unidad es muy reducido y los tiempos de impresión de las piezas necesarios son bastante razonables. Esto siempre que tratemos grupos pequeños o bien contemos con un número adecuado de impresoras hace viable construir uno por alumno.
+El robot puede ser utilizado y además construido en el aula: es sencillo, el precio por unidad es muy reducido y los tiempos de impresión de las piezas necesarias son bastante razonables. Esto siempre que tratemos grupos pequeños o bien contemos con un número adecuado de impresoras hace viable construir uno por alumno.
 
-Su diseño permite llevar a cabo actividades en las que se pueda experimentar con las tres ramas fundamentales de la robótica:
+Su diseño permite llevar a cabo actividades enfocadas hacia cualquiera de las ramas fundamentales de la robótica:
 * Mecánica: Hace uso de una rueda dentada, cremalleras y servomotores.
-* Electrónica: Es posible construir el robot soldando distintos elementos en una placa perforada estándar y añadir elementos nuevos. Por contra también se puede simplificar su construcción utilizando una sensor shield para Arduino Nano, lo que eliminaría el uso de soldadores y componentes discretos, siendo solo necesario conectar elementos de una manera muy sencilla.
+* Electrónica: Es posible construir el robot soldando distintos elementos en una placa perforada estándar y añadir elementos nuevos. Por contra también es posible simplificar su construcción utilizando una shield de sensores para Arduino Nano, lo que eliminaría el uso de soldadores y componentes discretos, siendo solo necesarias las manos para conectar los motores a la placa.
 * Programación: A pesar de sus capacidades motrices limitadas es posible programarlo para realizar movimientos hacia adelante, atrás y giros en ambas direcciones.
 
-Asimismo el chasis del robot cuenta con unos conectores en la parte frontal que permiten conectar piezas intercambiables. Estas piezas podrían ser diseños imprimidos en 3D creados con finalidad decorativa o bien funcional.
+El chasis cuenta además con cuatro conectores en su parte frontal que permiten conectar piezas intercambiables. Estas piezas podrían ser diseños imprimidos en 3D creados con finalidad decorativa o bien funcional.
 
 ## Estado actual del proyecto
 
-El robot ya se puede construir de ambas formas y realiza todos los movimientos para los que fue diseñado. El actual diseño de su chasis ya permite conectar tanto una sensor shield como una perfboard, lo que hace posible que su montaje se pueda realizar simplemente conectando elementos o bien soldando nuestro propio circuito en la perfboard.
+El diseño actual del robot ya permite que sea construido de ambas formas (con placa perforada o con shield de sensores) y realiza todos los movimientos básicos para los que fue diseñado (adelante, atrás y giros en ambas direcciones).
 
 ## Historial de versiones
 
-* v1.4: Mejorado el diseño del chasis para que pueda albergar tanto un sensor shield como una perfboard
-* v1.3: Pequeñas modificaciones en el chasis para minimizar zonas de impresión completamente horizontales sin soporte
-* v1.2: Modificado el diseño chasis para que se pueda imprimir en menos tiempo y utilizando menos material
-* v1.1: Modificado el diseño de varias piezas para que se puedan imprimir sin soporte
-* v1.0: Primera versión funcionalmente completa
+* v1.4: Mejorado el diseño del chasis para que pueda albergar tanto una placa performada o una shield de sensores Nano.
+* v1.3: Pequeñas modificaciones en el chasis para minimizar zonas de impresión completamente horizontales sin soporte.
+* v1.2: Modificado el diseño chasis para que se pueda imprimir en menos tiempo y utilizando menos material.
+* v1.1: Modificado el diseño de varias piezas para que se puedan imprimir sin soporte.
+* v1.0: Primera versión funcionalmente completa.
 
 ## Galería
 
@@ -82,42 +82,42 @@ Vídeo con sus primeros pasos (prototipo):
 
 [![Vídeo primeros pasos (prototipo)](https://img.youtube.com/vi/WuDx59RuUR0/0.jpg)](https://www.youtube.com/watch?v=WuDx59RuUR0)
 
-¡Están vivos! Robots construidos durante una actividad:
+¡Están vivos! Robots construidos y personalizados durante una actividad:
 
 [![¡Están vivos!](https://img.youtube.com/vi/RpZjiBUb5sI/0.jpg)](https://www.youtube.com/watch?v=RpZjiBUb5sI)
 
-Perfboard a la que además de soldar un Arduino Nano se le han añadido pulsadores para programar secuencias de órdenes, un zumbador, un led RGB y un interruptor de encendido:
+Placa performada a la que además de soldar un Arduino Nano se le han añadido pulsadores para programar secuencias de movimientos, un zumbador, un led RGB y un interruptor de encendido:
 
-![Perfboard con pulsadores](images/perfboard_con_pulsadores_web.jpg)
+![Placa perforada con componentes](images/perfboard_con_pulsadores_web.jpg)
 
-Prototipo montado utilizando una sensor shield. Montaje plug & play: cero soldaduras, la conexión a la pila se realiza mediante un jack estándar y los servos se unen a la placa con el mismo conector dupont hembra triple que recibimos según los compramos).
+Prototipo montado utilizando una sensor shield. Montaje plug & play: cero soldaduras, la conexión a la pila se realiza mediante un jack estándar y los servos se unen a la placa con el mismo conector dupont hembra triple que tienen cuando los recibimos, sin necesidad de modificaciones).
 
-![Prototipo usando sensor shield](images/prototipo_con_sensor_shield_web.jpg)
+![Prototipo usando una placa de sensores](images/prototipo_con_sensor_shield_web.jpg)
 
 ## Lista de materiales
 
 * 1x Arduino Nano
 * 2x Servos SG90
 * Si quieres soldar elementos en una placa:
-    * 1x Placa perforada / perfboard
-    * 1x Zócalo para conectar la placa Arduino Nano
-    * 1x Interruptor que pueda ser soldado en la perfboard
+    * 1x placa perforada / perfboard
+    * 1x zócalo para conectar la placa Arduino Nano
+    * 1x interruptor que pueda ser soldado en la perfboard
     * Cualquier otro componente que quieras añadir: un zumbador, ledes, resistencias LDR...
 * Si prefieres simplificar las cosas y no soldar nada:
-    * 1x Sensor shield para Arduino Nano (Nano Shield)
-    * 1x Conector pila 9v a jack de alimentación Arduino
+    * 1x sensor shield para Arduino Nano (Nano Shield)
+    * 1x conector pila 9v a jack de alimentación Arduino
 * 1x Pila 9v
 * Impresión de las siguientes piezas (modelos publicados en la carpeta [stl](./stl)):
-    * 1x Chasis
-    * 1x Rueda dentada
-    * 1x Patas traseras
-    * 2x Patas delanteras
+    * 1x chasis
+    * 1x rueda dentada
+    * 1x patas traseras
+    * 2x patas delanteras
 
 ## Construcción
 
-Esquema básico de conexiones para su montaje utilizando una perfboard:
+Esquema básico de conexiones para su montaje utilizando una placa perforada:
 
-![Esquema conexiones](images/esquema_perfboard.png)
+![Esquema eléctrico](images/esquema_perfboard.png)
 
 El anterior esquema muestra un montaje sencillo, donde únicamente existe un interruptor para encender o apagar el robot. Colocando la placa con el conector USB hacia la derecha quedaría más espacio disponible para por ejemplo añadir pulsadores con los que programar una secuencia de movimientos, un zumbador para emitir sonidos, un led RGB o cualquier otro componente.
 
