@@ -1,8 +1,8 @@
 # Abercrombie
 
-Four-legged didactic and minimalistic robot using an Arduino Nano board, two SG90 servos and five easy to print parts.
+Four-legged educational and minimalistic robot using an Arduino Nano board, two SG90 servos and five easy to print parts.
 
-Its design is extremely simple and meant to be used in the classroom or by anyone that wants to build his first robot from scratch.
+Its design is extremely simple and it is meant to be used in the classroom or by anyone who wants to build his first robot from scratch.
 
 ([versión en español aquí](README.es.md))
 
@@ -67,11 +67,11 @@ Screenshots (pictures caputed with the phone... sorry) showing the desing of the
 
 ![CAD chassis](images/cad_chasis_web.jpg)
 
-Chassis just printed (without support material):
+Chassis just printed (no support material used):
 
 ![Chassis in printer](images/chasis_en_impresora.jpg)
 
-Collection of parts ready to be used in a group activity:
+Several sets of parts ready to be used in an activity:
 
 ![Set of parts for the classroom](images/sets_piezas_1_web.jpg)
 
@@ -120,11 +120,11 @@ Basic electrical diagram to be used with a perfboard:
 
 Former diagram shows a simple robot, having only a power switch. Place the Arduino Nano board so it has the USB connector to the right if you want to have more free space to add extra components like switches to program sequences of movements, a buzzer to make sounds, an RGB LED or any other component.
 
-Una vez tengamos delante de nosotros las piezas imprimidas y el resto del material necesario veremos que el procedimiento para montar el robot es prácticamente autoexplicativo. Posiblemente solo sea necesario comentar los siguientes puntos:
+Once you have the printed parts and the rest of the material ready, most of the assembly procedure should be self-explanmatory. Anyway some details should be noted:
 
-* Empeza cortando con un cutter los conectores plásticos que vienen con los servos para que uno quepa dentro de la rueda dentada y otro dentro de las patas traseras.
-* Asegúramte que los dos servos están en su posición central antes de montarlos (puedes usar la misma pieza de plástico o cualquier otra de las incluidas para girarlos manualmente).
-* Es posible que tengas que limar un poco la parte superior del hueco en el que se debe insertar el servo delantero. Los servos deberían insertarse con cierta resistencia, el diseño de estas zonas es deliberadamente justo (lo que permite prescindir de tornillos de sujección en la mayoría de los casos).
+* Start cutting with a pair of scissors or an exacto knife the plastic headers that come with the servo so that one of them fits inside the geared wheel and the other inside the rear legs.
+* Make sure that both servos are in their center position before assembling them (the same plastic headers can be used to turn them manually until they are centered).
+* Maybe you need to polish the upper part of the hole where the front servo needs to be attached. Anyway you will need to apply a bit of force to insert the servos because the design of this areas is deliberately tight (so you won't need extra screws for the servos in most of the cases).
 * Cuando coloques la parte delantera tendrás que insertar todos los elementos imprimidos juntos (las dos patas y la rueda). Piensa que estás colocando todo en su posición central y por tanto debería quedar aproximadamente el mismo número de dientes encima y debajo del eje del motor. Coloca las piezas y después inserta y atornilla el servo.
 
 ## Sketch Arduino

@@ -121,10 +121,10 @@ Esquema básico de conexiones para su montaje utilizando una placa perforada:
 
 El anterior esquema muestra un montaje sencillo, donde únicamente existe un interruptor para encender o apagar el robot. Colocando la placa con el conector USB hacia la derecha quedaría más espacio disponible para por ejemplo añadir pulsadores con los que programar una secuencia de movimientos, un zumbador para emitir sonidos, un led RGB o cualquier otro componente.
 
-Una vez tengamos delante de nosotros las piezas imprimidas y el resto del material necesario veremos que el procedimiento para montar el robot es prácticamente autoexplicativo. Posiblemente solo sea necesario comentar los siguientes puntos:
+Una vez tengamos delante de nosotros las piezas imprimidas y el resto del material preparado, la mayor parte del procedimiento para montar el robot debería ser autoexplicativo. Posiblemente solo sea necesario comentar los siguientes puntos:
 
 * Empeza cortando con un cutter los conectores plásticos que vienen con los servos para que uno quepa dentro de la rueda dentada y otro dentro de las patas traseras.
-* Asegúramte que los dos servos están en su posición central antes de montarlos (puedes usar la misma pieza de plástico o cualquier otra de las incluidas para girarlos manualmente).
+* Asegúramte que los dos servos están en su posición central antes de montarlos (puedes usar la misma pieza de plástico para centrarlos manualmente).
 * Es posible que tengas que limar un poco la parte superior del hueco en el que se debe insertar el servo delantero. Los servos deberían insertarse con cierta resistencia, el diseño de estas zonas es deliberadamente justo (lo que permite prescindir de tornillos de sujección en la mayoría de los casos).
 * Cuando coloques la parte delantera tendrás que insertar todos los elementos imprimidos juntos (las dos patas y la rueda). Piensa que estás colocando todo en su posición central y por tanto debería quedar aproximadamente el mismo número de dientes encima y debajo del eje del motor. Coloca las piezas y después inserta y atornilla el servo.
 
