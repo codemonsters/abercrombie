@@ -1,27 +1,27 @@
 # Abercrombie
 
-Four-legged didactic and minimalistic robot built with and Arduino Nano, two SG90 servos and five easy to print parts.
+Robot cuadrúpedo didáctico y minimalista basado en un Arduino Nano, dos servos SG90 y varias piezas muy fáciles de imprimir.
 
-([versión en español aquí](README.es.md))
+([english version here](README.md))
 
 ![Abercrombie](images/abercrombie_web.jpg)
 
-The design is extremely simple. It is meant to be used in the classroom and also by anyone that wants to assemble his first robot from scratch.
+Su diseño es extremadamente simple. Está pensado sobre todo para ser utilizado en el aula, pero también para todo aquel que quiera construir un primer robot desde cero.
 
-## Motivation
+## Motivación
 
-The general design and also the mechanism that allows the robot to move around is based in an awesome project by Randy Sarafan [published here]((https://www.instructables.com/id/3D-Printed-Robot/)). After reaching the project for the first time and building one it seemed that a four-legged minimalistic robot like his is a great idea and that for didactic purposes it would be great to have a similar one but just smaller, easier to print and build with components even cheaper and easier to find in any place you live.
+El diseño general y particularmente el mecanismo que el robot usa para desplazarse está basado en un estupendo proyecto publicado por Randy Sarafan [accesible desde aquí](https://www.instructables.com/id/3D-Printed-Robot/). Tras verlo y construir uno siempre he pensado que un cuadrúpedo minimalista como el suyo es una gran idea y que para fines didácticos sería bueno contar con uno similar pero más pequeño, fácil de imprimir y que esté formado por componentes electrónicos incluso más económicos y fáciles de conseguir en cualquier sitio.
 
-So the robot was designed to be built, customized and programmed in the classroom. It wants to be a starting point so kids, teenagers and of course anyone else interested can created his first walking robot. Its design is intentionally simplistic, trying to be friendly even for people not initiated in programming, electronics or 3D printing.
+El robot está por tanto diseñado para ser construido, personalizado y programado en el aula. Pretende ser una base para que niños, jóvenes y por supuesto cualquier adulto pueda crear su primer robot capaz de caminar. Su diseño es en todos los aspectos simplista, intentando ser un buen primer proyecto incluso para personas no iniciadas en la programación, electrónica o impresión 3D.
 
-The robot can be used in educational activities dedicated to different aspects of robotics:
+El robot se puede utilizar en actividades educativas dedicadas a distintas áreas de la robótica:
 
-* Work only in the design and 3D printing customizing the robot with our own designs, assembling it with just a scissor and a screwdriver.
-* Turn the activity more into electronics making use of perfboards, soldering irons and including different electronic components.
-* Use the robot for programming activities: defining the instructions that form every movement or creating programs that control any sensor or actuator we have attached to the robot.
-* Treat all the pointed problems together.
+* Tratar solo el diseño y la impresión 3D personalizando el robot con nuestros propios diseños y reducir el montaje a un trabajo en el que apenas es necesario utilizar una tijera y un destornillador.
+* Dirigir más la actividad hacia la electrónica haciendo uso de placas perfoaradas, soldadores e incluyendo en el diseño diversos componentes electrónicos
+* Utilizar el robot en actividades más centradas en la programación: definiendo las instrucciones que realizan cada movimiento o creando un programa que controle cualquier sensor o actuador que podamos tener conectado al robot.
+* Participar en toda la problemática anteriormente citada.
 
-## General characteristics
+## Características generales
 
 Pros:
 
@@ -33,7 +33,7 @@ Pros:
 * Personalizable: Además de crear nuevos diseños para cualquier de sus partes, el chasis cuenta con unos conectores en la parte frontal para añadir piezas diseñadas por nosotros.
 * Es un cuadrúpedo. Un poco torpe (pobriño...), pero con un aspecto y movimiento simpático y amigable.
 
-Cons:
+Contras:
 
 * Es un cuadrúpedo. Porque esto también es un inconveniente ya que su desplazamiento hace muy complicada su utilización en ciertas actividades en las que contar con unas ruedas sería mucho más adecuado (ej: robot siguelíneas).
 
