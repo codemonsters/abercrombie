@@ -1,6 +1,6 @@
 # Abercrombie
 
-Four-legged didactic and minimalistic robot built with and Arduino Nano, two SG90 servos and five easy to print parts.
+Four-legged didactic and minimalistic robot built with an Arduino Nano board, two SG90 servos and five easy to print parts.
 
 ([versión en español aquí](README.es.md))
 
@@ -19,19 +19,19 @@ The robot can be used in educational activities dedicated to different aspects o
 * Work only in the design and 3D printing customizing the robot with our own designs, assembling it with just a scissor and a screwdriver.
 * Turn the activity more into electronics making use of perfboards, soldering irons and including different electronic components.
 * Use the robot for programming activities: defining the instructions that form every movement or creating programs that control any sensor or actuator we have attached to the robot.
-* Treat all the pointed problems together.
+* Treat all the pointed challenges together.
 
 ## General characteristics
 
 Pros:
 
-* Diseño completamente abierto y licencia muy permisiva (GPL3 para el código y CC BY-NC-SA 4.0 para las piezas 3D).
-* Electrónica estándar y extremadamente simple: dos servos SG90, una placa Arduino Nano, una pila de 9V y poco más.
-* Impresión 3D sencilla: pocas piezas, de tamaño contenido e imprimibles sin necesidad de material de soporte.
 * Un buen primer proyecto para iniciarse en la robótica.
-* Extensible: En la placa perforada además de caber una placa Arduino Nano debería quedar espacio libre para añadir elementos extra: un zumbador, pulsadores, ledes, un sensor de ultrasonidos, resistencias LDR...
-* Personalizable: Además de crear nuevos diseños para cualquier de sus partes, el chasis cuenta con unos conectores en la parte frontal para añadir piezas diseñadas por nosotros.
-* Es un cuadrúpedo. Un poco torpe (pobriño...), pero con un aspecto y movimiento simpático y amigable.
+* Completely open design with very permisive license (GPL3 for the code and CC BY-NC-SA 4.0 for the 3D printed parts).
+* Standard and extremelly simple electronics: mostly just two SG90 servos, one Arduino Nano board, a Nano sensor shield (or a perfboard) and a 9V battery.
+* Very easy to print: just a few parts of reduced size that don't need support material while printing.
+* Customizable: Creating new designs for any of his parts, but also because the chasis has connectors in the front area to attach any new piece designed by us.
+* Extensible: After soldering an Arduino Nano board the perfboard should have enough free space to add extra componentes: a buzzer, LED lights, an ultraosinic sensor, LDR resistors...
+* Is a four-legged robot. Sure it is a bit clumsy, but also lovely and funny while walking.
 
 Cons:
 

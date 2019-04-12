@@ -1,6 +1,6 @@
 # Abercrombie
 
-Robot cuadrúpedo didáctico y minimalista basado en un Arduino Nano, dos servos SG90 y varias piezas muy fáciles de imprimir.
+Robot cuadrúpedo didáctico y minimalista basado en una placa Arduino Nano, dos servos SG90 y varias piezas muy fáciles de imprimir.
 
 ([english version here](README.md))
 
@@ -25,12 +25,12 @@ El robot se puede utilizar en actividades educativas dedicadas a distintas área
 
 Pros:
 
-* Diseño completamente abierto y licencia muy permisiva (GPL3 para el código y CC BY-NC-SA 4.0 para las piezas 3D).
-* Electrónica estándar y extremadamente simple: dos servos SG90, una placa Arduino Nano, una pila de 9V y poco más.
-* Impresión 3D sencilla: pocas piezas, de tamaño contenido e imprimibles sin necesidad de material de soporte.
 * Un buen primer proyecto para iniciarse en la robótica.
-* Extensible: En la placa perforada además de caber una placa Arduino Nano debería quedar espacio libre para añadir elementos extra: un zumbador, pulsadores, ledes, un sensor de ultrasonidos, resistencias LDR...
+* Diseño completamente abierto y licencia muy permisiva (GPL3 para el código y CC BY-NC-SA 4.0 para las piezas 3D).
+* Electrónica estándar y extremadamente simple: prácticamente solo dos servos SG90, una placa Arduino Nano, una placa de sensores Nano (o una placa perforada) y una pila de 9V.
+* Impresión 3D sencilla: pocas piezas, de tamaño contenido e imprimibles sin necesidad de material de soporte.
 * Personalizable: Además de crear nuevos diseños para cualquier de sus partes, el chasis cuenta con unos conectores en la parte frontal para añadir piezas diseñadas por nosotros.
+* Extensible: En la placa perforada además de caber una placa Arduino Nano debería quedar espacio libre para añadir elementos extra: un zumbador, pulsadores, ledes, un sensor de ultrasonidos, resistencias LDR...
 * Es un cuadrúpedo. Un poco torpe (pobriño...), pero con un aspecto y movimiento simpático y amigable.
 
 Contras:
