@@ -2,7 +2,7 @@
 
 Four-legged didactic and minimalistic robot using an Arduino Nano board, two SG90 servos and five easy to print parts.
 
-The design is extremely simple. It is meant to be used in the classroom and also by anyone that wants to assemble his first robot from scratch.
+Its design is extremely simple and meant to be used in the classroom or by anyone that wants to build his first robot from scratch.
 
 ([versión en español aquí](README.es.md))
 
