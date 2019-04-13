@@ -127,7 +127,7 @@ Once you have the printed parts and the rest of the material ready, most of the 
 * Maybe you need to polish the upper part of the hole where the front servo needs to be attached. Anyway you will need to apply a bit of force to insert the servos because the design of this areas is deliberately tight (so you won't need extra screws for the servos in most of the cases).
 * When assembling the frontal mechanism all the printed parts will have to be inserted simultaneously (two front legs and the wheel gear). Take in count that everything should be in the central position and so after placing all the frontal parts you should have more or less the same number of teeth over the axis of the motor than under itself. After finishing placing the parts tight the screw of the frontal servor and optionally secure the servo with two more screws.
 
-## Sketches Arduino
+## Arduino Sketches
 
 In [src](./src) folder there are two example Arduino sketches:
 

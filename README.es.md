@@ -128,7 +128,7 @@ Una vez tengamos delante de nosotros las piezas imprimidas y el resto del materi
 * Es posible que tengas que limar un poco la parte superior del hueco en el que se debe insertar el servo delantero. Los servos deberían insertarse con cierta resistencia, el diseño de estas zonas es deliberadamente justo (lo que permite prescindir de tornillos de sujección en la mayoría de los casos).
 * Cuando coloques la parte delantera tendrás que insertar todos los elementos imprimidos juntos (las dos patas y la rueda). Piensa que estás colocando todo en su posición central y por tanto debería quedar aproximadamente el mismo número de dientes encima del eje del servo que debajo. Coloca las piezas, después atornilla el servo y opcionalmente fija el servo al chasis con dos tornillos.
 
-## Arduino Sketches
+## Sketches Arduino
 
 En la carpeta [src](./src) se han publicado los siguientes sketches Arduino de ejemplo:
 
