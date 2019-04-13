@@ -119,24 +119,24 @@ Esquema básico de conexiones para su montaje utilizando una placa perforada:
 
 ![Esquema eléctrico](images/esquema_perfboard.png)
 
-El anterior esquema muestra un montaje sencillo, donde únicamente existe un interruptor para encender o apagar el robot. Colocando la placa con el conector USB hacia la derecha quedaría más espacio disponible para por ejemplo añadir pulsadores con los que programar una secuencia de movimientos, un zumbador para emitir sonidos, un led RGB o cualquier otro componente.
+El anterior esquema muestra un montaje sencillo, con conexiones entre los dos servos y la placa y un interruptor añadido para encender y apagar el robot. Colocando la placa con el conector USB hacia la derecha quedaría más espacio disponible para por ejemplo añadir pulsadores con los que programar una secuencia de movimientos, un zumbador para emitir sonidos, un led RGB o cualquier otro componente.
 
 Una vez tengamos delante de nosotros las piezas imprimidas y el resto del material preparado, la mayor parte del procedimiento para montar el robot debería ser autoexplicativo. Posiblemente solo sea necesario comentar los siguientes puntos:
 
 * Empeza cortando con un cutter los conectores plásticos que vienen con los servos para que uno quepa dentro de la rueda dentada y otro dentro de las patas traseras.
 * Asegúramte que los dos servos están en su posición central antes de montarlos (puedes usar la misma pieza de plástico para centrarlos manualmente).
 * Es posible que tengas que limar un poco la parte superior del hueco en el que se debe insertar el servo delantero. Los servos deberían insertarse con cierta resistencia, el diseño de estas zonas es deliberadamente justo (lo que permite prescindir de tornillos de sujección en la mayoría de los casos).
-* Cuando coloques la parte delantera tendrás que insertar todos los elementos imprimidos juntos (las dos patas y la rueda). Piensa que estás colocando todo en su posición central y por tanto debería quedar aproximadamente el mismo número de dientes encima y debajo del eje del motor. Coloca las piezas y después inserta y atornilla el servo.
+* Cuando coloques la parte delantera tendrás que insertar todos los elementos imprimidos juntos (las dos patas y la rueda). Piensa que estás colocando todo en su posición central y por tanto debería quedar aproximadamente el mismo número de dientes encima del eje del servo que debajo. Coloca las piezas, después atornilla el servo y opcionalmente fija el servo al chasis con dos tornillos.
 
-## Sketch Arduino
+## Arduino Sketches
 
 En la carpeta [src](./src) se han publicado los siguientes sketches Arduino de ejemplo:
 
-* minimum.ino: Movimiento recto. Código didáctico y simplificado al máximo.
-* abercrombie.ino: Tiene métodos para avanzar, girar y caminar hacia atrás. Añadidas definiciones para ajustar fácilmente el funcionamiento del robot según la posición inicial de cada servo (para facilitar su configuración a las pequeñas variaciones originadas durante el montaje).
+* minimum.ino: Movimiento básico hacia adelante. Código didáctico y simplificado al máximo.
+* abercrombie.ino: Tiene funciones para avanzar, desplazarse hacia atrás y girar en ambas direcciones. Añadidas definiciones para ajustar fácilmente el funcionamiento del robot según la posición inicial de cada servo (para facilitar su configuración a las pequeñas variaciones originadas durante el montaje).
 
 ## Colabora
 
-Si construyes tu propio robot o lo utilizas en alguna actividad envía por favor una foto. ¡Sería genial verlo!
+Si construyes tu propio robot o lo utilizas en alguna actividad educativa envía por favor una foto. ¡Sería genial verlo!
 
-¿Has realizado alguna mejora o modificación? ¡Comparte tu trabajo!
+¿Has realizado alguna mejora o modificación? ¡Comparte tu trabajo para para hacer este proyecto mejor!

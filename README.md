@@ -34,7 +34,7 @@ Pros:
 
 Cons:
 
-* It is a four-legged robot. Sure this is also and disadvantage and his movement is not suited for certain activities where wheeled robots are much better (i.e.: using it with line following circuits).
+* It is a four-legged robot. Sure this is also and disadvantage and his movement is not suited for certain activities where robots with wheels are much better (i.e.: using it with line following circuits).
 
 ## Friendly for the classroom
 
@@ -118,24 +118,24 @@ Basic electrical diagram to be used with a perfboard:
 
 ![Electrical diagram](images/esquema_perfboard.png)
 
-Former diagram shows a simple robot, having only a power switch. Place the Arduino Nano board so it has the USB connector to the right if you want to have more free space to add extra components like switches to program sequences of movements, a buzzer to make sounds, an RGB LED or any other component.
+Former diagram shows a simple robot, with connections between the two servos and the board and an added power switch. Place the Arduino Nano board so it has the USB connector to the right if you want to have more free space to add extra components like switches to program sequences of movements, a buzzer to make sounds, an RGB LED or any other component.
 
 Once you have the printed parts and the rest of the material ready, most of the assembly procedure should be self-explanmatory. Anyway some details should be noted:
 
 * Start cutting with a pair of scissors or an exacto knife the plastic headers that come with the servo so that one of them fits inside the geared wheel and the other inside the rear legs.
 * Make sure that both servos are in their center position before assembling them (the same plastic headers can be used to turn them manually until they are centered).
 * Maybe you need to polish the upper part of the hole where the front servo needs to be attached. Anyway you will need to apply a bit of force to insert the servos because the design of this areas is deliberately tight (so you won't need extra screws for the servos in most of the cases).
-* Cuando coloques la parte delantera tendrás que insertar todos los elementos imprimidos juntos (las dos patas y la rueda). Piensa que estás colocando todo en su posición central y por tanto debería quedar aproximadamente el mismo número de dientes encima y debajo del eje del motor. Coloca las piezas y después inserta y atornilla el servo.
+* When assembling the frontal mechanism all the printed parts will have to be inserted simultaneously (two front legs and the wheel gear). Take in count that everything should be in the central position and so after placing all the frontal parts you should have more or less the same number of teeth over the axis of the motor than under itself. After finishing placing the parts tight the screw of the frontal servor and optionally secure the servo with two more screws.
 
-## Sketch Arduino
+## Sketches Arduino
 
-En la carpeta [src](./src) se han publicado los siguientes sketches Arduino de ejemplo:
+In [src](./src) folder there are two example Arduino sketches:
 
-* minimum.ino: Movimiento recto. Código didáctico y simplificado al máximo.
-* abercrombie.ino: Tiene métodos para avanzar, girar y caminar hacia atrás. Añadidas definiciones para ajustar fácilmente el funcionamiento del robot según la posición inicial de cada servo (para facilitar su configuración a las pequeñas variaciones originadas durante el montaje).
+* minimum.ino: Basic forward movement. Didactic code with maximum simplification.
+* abercrombie.ino: It has functions to move forward, backward and turn in both directions. It also has added definitions to easily adjust how the robot works based on the center position of each servo (to correct by software the small calibration errors that could happen while trying to find the center position of each servo.
 
-## Colabora
+## Collaborate
 
-Si construyes tu propio robot o lo utilizas en alguna actividad envía por favor una foto. ¡Sería genial verlo!
+If you build your own robot or you use it in any educational activity please send a picture. It would be great seeing it!
 
-¿Has realizado alguna mejora o modificación? ¡Comparte tu trabajo!
+Did you make any improvement or modification? Share your work so we all can make this project better!
