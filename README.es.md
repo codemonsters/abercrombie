@@ -96,18 +96,19 @@ Prototipo montado utilizando una sensor shield. Montaje plug & play: cero soldad
 
 ## Lista de materiales
 
-* 1x Arduino Nano
+* 1x placa Arduino Nano
 * 2x Servos SG90
 * Si quieres soldar elementos en una placa:
     * 1x placa perforada / perfboard
     * 1x zócalo para conectar la placa Arduino Nano
     * 1x interruptor que pueda ser soldado en la perfboard
+    * 1x conector pila 9v LR6
     * Cualquier otro componente que quieras añadir: un zumbador, ledes, resistencias LDR...
 * Si prefieres simplificar las cosas y no soldar nada:
     * 1x sensor shield para Arduino Nano (Nano Shield)
-    * 1x conector pila 9v a jack de alimentación Arduino
-* 1x Pila 9v
-* Impresión de las siguientes piezas (modelos publicados en la carpeta [stl](./stl)):
+    * 1x conector pila 9v LR6 a jack de alimentación Arduino
+* 1x pila 9v LR6
+* Imprime estas piezas (los modelos están publicados en la carpeta [stl](./stl)):
     * 1x chasis
     * 1x rueda dentada
     * 1x patas traseras
@@ -127,6 +128,7 @@ Una vez tengamos delante de nosotros las piezas imprimidas y el resto del materi
 * Asegúramte que los dos servos están en su posición central antes de montarlos (puedes usar la misma pieza de plástico para centrarlos manualmente).
 * Es posible que tengas que limar un poco la parte superior del hueco en el que se debe insertar el servo delantero. Los servos deberían insertarse con cierta resistencia, el diseño de estas zonas es deliberadamente justo (lo que permite prescindir de tornillos de sujección en la mayoría de los casos).
 * Cuando coloques la parte delantera tendrás que insertar todos los elementos imprimidos juntos (las dos patas y la rueda). Piensa que estás colocando todo en su posición central y por tanto debería quedar aproximadamente el mismo número de dientes encima del eje del servo que debajo. Coloca las piezas, después atornilla el servo y opcionalmente fija el servo al chasis con dos tornillos.
+* Los pies traseros tienen un diseño esfétrico para que opcionalmente se pueda añadir "calcetines" que mejoren el agarre a la hora de moverse (ej: dos pequeños globos de agua o cualquier otro material).
 
 ## Sketches Arduino
 

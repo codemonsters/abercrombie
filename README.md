@@ -101,12 +101,13 @@ Prototype that uses a sensor shield. Plug & play assembly: zero soldering, the c
     * 1x perfboard
     * 1x Arduino Nano socket
     * 1x power switch (breadboard friendly)
+    * 1x LR6 9v battery connector
     * Any other component you want to add: un zumbador, ledes, resistencias LDR...
 * If you choose to simplify things and avoid soldering:
     * 1x Arduino Nano Sensor Shield
-    * 1x 9v battery connector with an Arduino compatible jack
-* 1x 9v battery
-* Printing these parts (the models are published in the [stl](./stl) folder):
+    * 1x LR6 9v battery connector with an Arduino compatible jack
+* 1x LR6 9v battery
+* And print these parts (the models are published in the [stl](./stl) folder):
     * 1x chassis
     * 1x gear wheel
     * 1x rear legs
@@ -126,6 +127,7 @@ Once you have the printed parts and the rest of the material ready, most of the 
 * Make sure that both servos are in their center position before assembling them (the same plastic headers can be used to turn them manually until they are centered).
 * Maybe you need to polish the upper part of the hole where the front servo needs to be attached. Anyway you will need to apply a bit of force to insert the servos because the design of this areas is deliberately tight (so you won't need extra screws for the servos in most of the cases).
 * When assembling the frontal mechanism all the printed parts will have to be inserted simultaneously (two front legs and the wheel gear). Take in count that everything should be in the central position and so after placing all the frontal parts you should have more or less the same number of teeth over the axis of the motor than under itself. After finishing placing the parts tight the screw of the frontal servor and optionally secure the servo with two more screws.
+* Rear feet have an spherical design to optionally add "sockets" to improve the grip while walking (i.e: two small water balloons or any other material).
 
 ## Arduino Sketches
 
