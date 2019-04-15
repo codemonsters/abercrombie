@@ -1,8 +1,8 @@
 # Abercrombie
 
-Four-legged educational and minimalistic robot using an Arduino Nano board, two SG90 servos and five easy to print parts.
+Four-legged educational and minimalist robot using an Arduino Nano board, two SG90 servos and five easy to print parts.
 
-Its design is extremely simple and it is meant to be used in the classroom or by anyone who wants to build his first robot from scratch.
+Its design is extremelly simple and it is meant to be used in the classroom or by anyone who wants to build his first robot from scratch.
 
 ([versión en español aquí](README.es.md))
 
@@ -10,7 +10,7 @@ Its design is extremely simple and it is meant to be used in the classroom or by
 
 ## Motivation
 
-The general design and also the mechanism that allows the robot to move around is based in an awesome project by Randy Sarafan [published here]((https://www.instructables.com/id/3D-Printed-Robot/)). After reaching the project for the first time and building one it seemed that a four-legged minimalistic robot like his is a great idea and that for didactic purposes it would be great to have a similar one but just smaller, easier to print and build with components even cheaper and easier to find in any place you live.
+The general design and also the mechanism that allows the robot to move around is based in an awesome project by Randy Sarafan [published here]((https://www.instructables.com/id/3D-Printed-Robot/)). After reaching the project for the first time and building one it seemed that a four-legged minimalist robot like his is a great idea and that for didactic purposes it would be great to have a similar one but just smaller, easier to print and build with components even cheaper and easier to find in any place you live.
 
 So the robot was designed to be built, customized and programmed in the classroom. It wants to be a starting point so kids, teenagers and of course anyone else interested can created his first walking robot. Its design is intentionally simplistic, trying to be friendly even for people not initiated in programming, electronics or 3D printing.
 
@@ -25,12 +25,12 @@ The robot can be used in educational activities dedicated to different aspects o
 
 Pros:
 
-* Simple and completely open design with a very permisive license (GPL3 for the code and CC BY-NC-SA 4.0 for the 3D printed parts).
+* Simple and completely open design with a very permissive license (GPL3 for the code and CC BY-NC-SA 4.0 for the 3D printed parts).
 * Standard and extremelly simple electronics: mostly just two SG90 servos, one Arduino Nano board, a Nano sensor shield (or a perfboard) and a 9V battery.
 * Very easy to print: just a few parts of reduced size that don't need support material while printing.
 * Customizable: Creating new designs for any of his parts, but also because the chassis has connectors in the front area to attach any new piece designed by us.
-* Extensible: After soldering an Arduino Nano board the perfboard should have enough free space to add extra componentes: a buzzer, LED lights, an ultraosinic sensor, LDR resistors...
-* It is a four-legged robot. And a bit clumsy, but also lovely and funny while walking.
+* Extensible: After soldering an Arduino Nano board the perfboard should have enough free space to add extra components: a buzzer, LED lights, an ultrasonic sensor, LDR resistors...
+* It is a four-legged robot. And a bit clumsy, but it is also friendly looking and funny while walking.
 
 Cons:
 
@@ -38,14 +38,14 @@ Cons:
 
 ## Friendly for the classroom
 
-The robot can be used and also built in the classroom: it is simple, price per unit is very low and printing times for all the parts are quiet reasonable. Depeding on the size of the group and the number of printers available it could be feasible to build one per student.
+The robot can be used and also built in the classroom: it is simple, price per unit is very low and printing times for all the parts are quiet reasonable. Denpeding on the size of the group and the number of printers available it could be feasible to build one per student.
 
 The design of the robot is suited to focus the activity in any of the main areas of robotics:
 * Mechanics: It uses a gear wheel, gear racks and servomotors.
 * Electronics: It is possible to build the robot soldering the needed components in a standard perfboard and add new elements. On the other hand is also possible to simplify its construction using an Arduino Nano sensor shield. That way one should just plug the connectors to the board using his bare hands.
 * Programming: Even with its simplistic design, the robot can be programmed to walk forward, backwards and to turn in both directions.
 
-The chassis of the robot has four connectors in the front to allow attaching swappable parts. These part could have aesthetical purposes (a new face for the robot) or even functional.
+The chassis of the robot has four connectors in the front to allow attaching swappable parts. These part could have aesthetic purposes (a new face for the robot) or even functional.
 
 ## Current state of the project
 
@@ -61,7 +61,7 @@ The current design of the robot is ready to be built with both kind of boards (s
 
 ## Gallery
 
-Screenshots (pictures caputed with the phone... sorry) showing the desing of the parts:
+Screenshots (pictures captured with the phone... sorry) showing the design of the parts:
 
 ![CAD parts](images/cad_piezas_web.jpg)
 
@@ -89,7 +89,7 @@ Perfboard with an Arduino Nano soldered but also with added temporary switches t
 
 ![Perfboard with components](images/perfboard_con_pulsadores_web.jpg)
 
-Prototype that uses a sensor shield. Plug & play assembly: zero soldering, the connections between the battery and the board used a standard power jack and the servos are directly connected to the sensor board using its own triple dupont female connector, no modifications needed).
+Prototype that uses a sensor shield. Plug & play assembly: zero soldering, the connections between the battery and the board used a standard power jack and the servos are directly connected to the sensor board using its own triple DuPont female connector, no modifications needed).
 
 ![Prototype using a sensor shield](images/prototipo_con_sensor_shield_web.jpg)
 
@@ -102,7 +102,7 @@ Prototype that uses a sensor shield. Plug & play assembly: zero soldering, the c
     * 1x Arduino Nano socket
     * 1x power switch (breadboard friendly)
     * 1x LR6 9v battery connector
-    * Any other component you want to add: un zumbador, ledes, resistencias LDR...
+    * Any other component you want to add: a buzzer, LEDs, LDR resistors...
 * If you choose to simplify things and avoid soldering:
     * 1x Arduino Nano Sensor Shield
     * 1x LR6 9v battery connector with an Arduino compatible jack
@@ -121,12 +121,12 @@ Basic electrical diagram to be used with a perfboard:
 
 Former diagram shows a simple robot, with connections between the two servos and the board and an added power switch. Place the Arduino Nano board so it has the USB connector to the right if you want to have more free space to add extra components like switches to program sequences of movements, a buzzer to make sounds, an RGB LED or any other component.
 
-Once you have the printed parts and the rest of the material ready, most of the assembly procedure should be self-explanmatory. Anyway some details should be noted:
+Once you have the printed parts and the rest of the material ready, most of the assembly procedure should be self-explanatory. Anyway some details should be noted:
 
-* Start cutting with a pair of scissors or an exacto knife the plastic headers that come with the servo so that one of them fits inside the geared wheel and the other inside the rear legs.
+* Start cutting with a pair of scissors or an x-acto knife the plastic headers that come with the servo so that one of them fits inside the geared wheel and the other inside the rear legs.
 * Make sure that both servos are in their center position before assembling them (the same plastic headers can be used to turn them manually until they are centered).
 * Maybe you need to polish the upper part of the hole where the front servo needs to be attached. Anyway you will need to apply a bit of force to insert the servos because the design of this areas is deliberately tight (so you won't need extra screws for the servos in most of the cases).
-* When assembling the frontal mechanism all the printed parts will have to be inserted simultaneously (two front legs and the wheel gear). Take in count that everything should be in the central position and so after placing all the frontal parts you should have more or less the same number of teeth over the axis of the motor than under itself. After finishing placing the parts tight the screw of the frontal servor and optionally secure the servo with two more screws.
+* When assembling the frontal mechanism all the printed parts will have to be inserted simultaneously (two front legs and the wheel gear). Take in count that everything should be in the central position and so after placing all the frontal parts you should have more or less the same number of teeth over the axis of the motor than under itself. After finishing placing the parts tight the screw of the frontal servo and optionally secure the servo with two more screws.
 * Rear feet have an spherical design to optionally add "sockets" to improve the grip while walking (i.e: two small water balloons or any other material).
 
 ## Arduino Sketches

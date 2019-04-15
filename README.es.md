@@ -18,7 +18,7 @@ El robot está por tanto diseñado para ser construido, personalizado y programa
 El robot se puede utilizar en actividades educativas dedicadas a distintas áreas de la robótica:
 
 * Tratar solo el diseño y la impresión 3D personalizando el robot con nuestros propios diseños y reducir el montaje a un trabajo en el que apenas es necesario utilizar una tijera y un destornillador.
-* Dirigir más la actividad hacia la electrónica haciendo uso de placas perfoaradas, soldadores e incluyendo en el diseño diversos componentes electrónicos
+* Dirigir más la actividad hacia la electrónica haciendo uso de placas perforadas, soldadores e incluyendo en el diseño diversos componentes electrónicos
 * Utilizar el robot en actividades más centradas en la programación: definiendo las instrucciones que realizan cada movimiento o creando un programa que controle cualquier sensor o actuador que podamos tener conectado al robot.
 * Participar en toda la problemática anteriormente citada.
 
@@ -31,7 +31,7 @@ Pros:
 * Impresión 3D sencilla: pocas piezas, de tamaño contenido e imprimibles sin necesidad de material de soporte.
 * Personalizable: Además de crear nuevos diseños para cualquier de sus partes, el chasis cuenta con unos conectores en la parte frontal para añadir piezas diseñadas por nosotros.
 * Extensible: En la placa perforada además de caber una placa Arduino Nano debería quedar espacio libre para añadir elementos extra: un zumbador, pulsadores, ledes, un sensor de ultrasonidos, resistencias LDR...
-* Es un cuadrúpedo. Un poco torpe (pobriño...), pero con un aspecto y movimiento simpático y amigable.
+* Es un cuadrúpedo. Un poco torpe (pobriño...), pero tiene un movimiento simpático y un aspecto amigable.
 
 Contras:
 
@@ -54,7 +54,7 @@ El diseño actual del robot ya permite que sea construido de ambas formas (con p
 
 ## Historial de versiones
 
-* v1.4: Mejorado el diseño del chasis para que pueda albergar tanto una placa performada o una shield de sensores Nano.
+* v1.4: Mejorado el diseño del chasis para que pueda albergar tanto una placa perforada o una shield de sensores Nano.
 * v1.3: Pequeñas modificaciones en el chasis para minimizar zonas de impresión completamente horizontales sin soporte.
 * v1.2: Modificado el diseño chasis para que se pueda imprimir en menos tiempo y utilizando menos material.
 * v1.1: Modificado el diseño de varias piezas para que se puedan imprimir sin soporte.
@@ -90,7 +90,7 @@ Placa performada a la que además de soldar un Arduino Nano se le han añadido p
 
 ![Placa perforada con componentes](images/perfboard_con_pulsadores_web.jpg)
 
-Prototipo montado utilizando una sensor shield. Montaje plug & play: cero soldaduras, la conexión a la pila se realiza mediante un jack estándar y los servos se unen a la placa con el mismo conector dupont hembra triple que tienen cuando los recibimos, sin necesidad de modificaciones).
+Prototipo montado utilizando una sensor shield. Montaje plug & play: cero soldaduras, la conexión a la pila se realiza mediante un jack estándar y los servos se unen a la placa con el mismo conector DuPont hembra triple que tienen cuando los recibimos, sin necesidad de modificaciones).
 
 ![Prototipo usando una placa de sensores](images/prototipo_con_sensor_shield_web.jpg)
 
@@ -124,11 +124,11 @@ El anterior esquema muestra un montaje sencillo, con conexiones entre los dos se
 
 Una vez tengamos delante de nosotros las piezas imprimidas y el resto del material preparado, la mayor parte del procedimiento para montar el robot debería ser autoexplicativo. Posiblemente solo sea necesario comentar los siguientes puntos:
 
-* Empeza cortando con un cutter los conectores plásticos que vienen con los servos para que uno quepa dentro de la rueda dentada y otro dentro de las patas traseras.
-* Asegúramte que los dos servos están en su posición central antes de montarlos (puedes usar la misma pieza de plástico para centrarlos manualmente).
+* Empieza cortando con un cutter los conectores plásticos que vienen con los servos para que uno quepa dentro de la rueda dentada y otro dentro de las patas traseras.
+* Asegúrate de que los dos servos estén en su posición central antes de montarlos (puedes usar la misma pieza de plástico para centrarlos manualmente).
 * Es posible que tengas que limar un poco la parte superior del hueco en el que se debe insertar el servo delantero. Los servos deberían insertarse con cierta resistencia, el diseño de estas zonas es deliberadamente justo (lo que permite prescindir de tornillos de sujección en la mayoría de los casos).
 * Cuando coloques la parte delantera tendrás que insertar todos los elementos imprimidos juntos (las dos patas y la rueda). Piensa que estás colocando todo en su posición central y por tanto debería quedar aproximadamente el mismo número de dientes encima del eje del servo que debajo. Coloca las piezas, después atornilla el servo y opcionalmente fija el servo al chasis con dos tornillos.
-* Los pies traseros tienen un diseño esfétrico para que opcionalmente se pueda añadir "calcetines" que mejoren el agarre a la hora de moverse (ej: dos pequeños globos de agua o cualquier otro material).
+* Los pies traseros tienen un diseño esférico para que opcionalmente se pueda añadir "calcetines" que mejoren el agarre a la hora de moverse (ej: dos pequeños globos de agua o cualquier otro material).
 
 ## Sketches Arduino
 
