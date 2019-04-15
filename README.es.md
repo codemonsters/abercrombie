@@ -11,7 +11,7 @@ Su diseño es extremadamente simple. Está pensado sobre todo para ser utilizado
 
 ## Motivación
 
-El diseño general y particularmente el mecanismo que el robot usa para desplazarse está basado en un estupendo proyecto publicado por Randy Sarafan [accesible desde aquí](https://www.instructables.com/id/3D-Printed-Robot/). Tras verlo y construir uno siempre he pensado que un cuadrúpedo minimalista como el suyo es una gran idea y que para fines didácticos sería bueno contar con uno similar pero más pequeño, fácil de imprimir y que esté formado por componentes electrónicos incluso más económicos y fáciles de conseguir en cualquier sitio.
+El diseño general y particularmente el mecanismo que el robot usa para desplazarse está basado en un estupendo proyecto publicado por Randy Sarafan [accesible desde aquí](https://www.instructables.com/id/3D-Printed-Robot/). Tras verlo y construir uno siempre he pensado que un cuadrúpedo minimalista como el suyo es una gran idea. Para fines didácticos sería bueno contar con uno similar pero más pequeño, fácil de imprimir y que esté formado por componentes incluso más económicos y fáciles de conseguir en cualquier sitio.
 
 El robot está por tanto diseñado para ser construido, personalizado y programado en el aula. Pretende ser una base para que niños, jóvenes y por supuesto cualquier adulto pueda crear su primer robot capaz de caminar. Su diseño es en todos los aspectos simplista, intentando ser un buen primer proyecto incluso para personas no iniciadas en la programación, electrónica o impresión 3D.
 
