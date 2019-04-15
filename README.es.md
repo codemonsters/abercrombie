@@ -116,6 +116,9 @@ Prototipo montado utilizando una sensor shield. Montaje plug & play: cero soldad
 
 ## Construcción
 
+En caso de utilizar la shield de sensores para Arduino Nano la conexión de los servos es simplemente una cuestión de conectar los cables de datos de los servos trasero y delantero (normalmente son los naranjas) a los dos pines PWM que prefiramos. Recuerda definir los mismos pines en el sketch cuando estés programando el robot. Los cables rojos de los servos deben conectarse a la salida de 5v de la placa y los marrones a tierra (GND).
+If you prefer to use a perfbord you can use this basic electrical diagram as reference:
+
 Esquema básico de conexiones para su montaje utilizando una placa perforada:
 
 ![Esquema eléctrico](images/esquema_perfboard.png)

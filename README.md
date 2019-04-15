@@ -115,7 +115,9 @@ Prototype that uses a sensor shield. Plug & play assembly: zero soldering, the c
 
 ## Construction
 
-Basic electrical diagram to be used with a perfboard:
+In case you are using the Nano sensor shield the connections are just a matter of pluging the rear and the forward data cables of the servos (usually the orange ones to any two PWM enabled pins you want. Just remember to define the same pin numbers later in the sketch when you are programming the robot. Both red cables of the servos should be connected to a 5v output pin of the board and the brown ones to ground (GND).
+
+If you prefer to use a perfbord you can use this basic electrical diagram as reference:
 
 ![Electrical diagram](images/esquema_perfboard.png)
 
