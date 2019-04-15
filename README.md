@@ -97,7 +97,7 @@ Prototype that uses a sensor shield. Plug & play assembly: zero soldering, the c
 
 * 1x Arduino Nano board
 * 2x SG90 servos
-* In case you want to solder the elements:
+* In case you want to solder everything:
     * 1x perfboard
     * 1x Arduino Nano socket
     * 1x power switch (breadboard friendly)

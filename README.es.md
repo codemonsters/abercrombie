@@ -98,7 +98,7 @@ Prototipo montado utilizando una sensor shield. Montaje plug & play: cero soldad
 
 * 1x placa Arduino Nano
 * 2x Servos SG90
-* Si quieres soldar elementos en una placa:
+* Si quieres soldar todo en una placa:
     * 1x placa perforada / perfboard
     * 1x zócalo para conectar la placa Arduino Nano
     * 1x interruptor que pueda ser soldado en la perfboard
