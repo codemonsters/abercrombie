@@ -10,7 +10,7 @@ Its design is extremelly simple and it is meant to be used in the classroom or b
 
 ## Motivation
 
-The general design and also the mechanism that allows the robot to move around is based in an awesome project by Randy Sarafan [published here]((https://www.instructables.com/id/3D-Printed-Robot/)). After reaching the project for the first time and building one it seemed that a four-legged minimalist robot like his is a great idea and that for didactic purposes it would be great to have a similar one but just smaller, easier to print and build with components even cheaper and easier to find in any place you live.
+The general design and also the mechanism that allows the robot to move around is based in an awesome project by Randy Sarafan [published here](https://www.instructables.com/id/3D-Printed-Robot/). After reaching the project for the first time and building one it seemed that a four-legged minimalist robot like his is a great idea and that for didactic purposes it would be great to have a similar one but just smaller, easier to print and build with components even cheaper and easier to find in any place you live.
 
 So the robot was designed to be built, customized and programmed in the classroom. It wants to be a starting point so kids, teenagers and of course anyone else interested can created his first walking robot. Its design is intentionally simplistic, trying to be friendly even for people not initiated in programming, electronics or 3D printing.
 
