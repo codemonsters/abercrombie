@@ -41,7 +41,7 @@ Cons:
 The robot can be used and also built in the classroom: it is simple, price per unit is very low and printing times for all the parts are quiet reasonable. Denpeding on the size of the group and the number of printers available it could be feasible to build one per student.
 
 The design of the robot is suited to focus the activity in any of the main areas of robotics:
-* Mechanics: It uses a gear wheel, gear racks and servomotors.
+* Mechanics: It uses a gear, two gear racks and servomotors.
 * Electronics: It is possible to build the robot soldering the needed components in a standard perfboard and add new elements. On the other hand is also possible to simplify its construction using an Arduino Nano sensor shield. That way one should just plug the connectors to the board using his bare hands.
 * Programming: Even with its simplistic design, the robot can be programmed to walk forward, backwards and to turn in both directions.
 
@@ -109,7 +109,7 @@ Prototype that uses a sensor shield. Plug & play assembly: zero soldering, the c
 * 1x LR6 9v battery
 * And print these parts (the models are published in the [stl](./stl) folder):
     * 1x chassis
-    * 1x gear wheel
+    * 1x gear
     * 1x rear legs
     * 2x forward legs
 
@@ -125,10 +125,10 @@ Former diagram shows a simple robot, with connections between the two servos and
 
 Once you have the printed parts and the rest of the material ready, most of the assembly procedure should be self-explanatory. Anyway some details should be noted:
 
-* Start cutting with a pair of scissors or an x-acto knife the plastic headers that come with the servo so that one of them fits inside the geared wheel and the other inside the rear legs.
+* Start cutting with a pair of scissors or an x-acto knife the plastic headers that come with the servo so that one of them fits inside the gear and the other inside the rear legs.
 * Make sure that both servos are in their center position before assembling them (the same plastic headers can be used to turn them manually until they are centered).
 * Maybe you need to polish the upper part of the hole where the front servo needs to be attached. Anyway you will need to apply a bit of force to insert the servos because the design of this areas is deliberately tight (so you won't need extra screws for the servos in most of the cases).
-* When assembling the frontal mechanism all the printed parts will have to be inserted simultaneously (two front legs and the wheel gear). Take in count that everything should be in the central position and so after placing all the frontal parts you should have more or less the same number of teeth over the axis of the motor than under itself. After finishing placing the parts tight the screw of the frontal servo and optionally secure the servo with two more screws.
+* When assembling the frontal mechanism all the printed parts will have to be inserted simultaneously (two front legs and the gear). Take in count that everything should be in the central position and so after placing all the frontal parts you should have more or less the same number of teeth over the axis of the motor than under itself. After finishing placing the parts tight the screw of the frontal servo and optionally secure the servo with two more screws.
 * Rear feet have an spherical design to optionally add "sockets" to improve the grip while walking (i.e: two small water balloons or any other material).
 
 ## Arduino Sketches
